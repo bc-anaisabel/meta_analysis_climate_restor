@@ -1,6 +1,7 @@
 # Does climate deviation from the past can predict if restoration of terrestrial ecosystems will be successful? 
 
-Summary: In this study I want to analyze if climate deviation has an effect in the restoration of terrestrial ecosystems.  If climate variables have deviated considerably compared to its ‘climate normal’ values in a restoration site, the conditions for successful restoration might not exist in the same way as before. Consideration of past climatic conditions could provide greater insight into what makes restoration successful and improve restoration practices across different environmental conditions and locations.  
+Summary: In this study I want to analyze if climate deviation has an effect in the restoration of terrestrial ecosystems.  If climate variables have deviated considerably compared to its ‘climate normal’ values in a restoration site, the conditions for successful restoration might not exist in the same way as before. Consideration of past climatic conditions could provide greater insight into how rapidly and succesfully ecosystems would recover if restoration was to be done. Potentially helping establish priorities and improve restoration practices across different environmental conditions and locations.  
+
 
 ## 1. Intro
 
