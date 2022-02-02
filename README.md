@@ -1,4 +1,4 @@
-# Does climate deviation can predict if restoration of terrestrial ecosystems will be succesful? 
+# Does climate deviation from the past can predict if restoration of terrestrial ecosystems will be succesful? 
 
 Summary: In this study I want to analyze if climate deviation has an effect in the restoration of terrestrial ecosystems.
 
