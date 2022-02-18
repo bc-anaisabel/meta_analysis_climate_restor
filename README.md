@@ -1,16 +1,31 @@
 # Does climate deviation can predict if restoration of terrestrial ecosystems will be successful? 
 
-Summary: In this study I want to analyze if climate deviation has an effect in the restoration of terrestrial ecosystems.  If climatic conditions have deviated from the climate normal values in which the restoration goals were established, the conditions for successful restoration might not exist in the same way as before. The use of existing or past reference ecosystems as restoration targets could fail in predicting how an ecosystem would respond ecologically to a certain restoration action (Millar & Woolfenden, 1999). In this sense if there is a relationship between climate deviation and recovery completeness and/or recovery rate, consideration of climatic conditions previous to restoration activities could potentially help establish restoration priorities.  
+In this study I want to analyze if **climate deviation** has an effect in the **restoration** of terrestrial ecosystems.  If climatic conditions have deviated from the climate normal values during which the restoration goals were established, the conditions for successful restoration of the ecosystem might not exist in the same way as before. In this sense, considering changes in recent climatic conditions when developing management plans and establishing restoration targets could help identify restoration priorities. Those sites where the conditions have deviated from normal values could either adjust their targets or active restoration efforts could be better directed to less altered ecosystems. 
 
 
 ## 1. Intro
 
+Altered responses to restoration in an ecosystem because changed climatic conditions may create different ecological paths than those planned for with previous restoration goals (Millar & Woolfenden, 1999).
+
+Mention: 
+How restoration targets are defined
+Why does it matter what we consider successful restoration in terms of funding 
+Why would a changed climate affect restoration - ecological responses of an ecosystem
+What is usually considered in restoration
+The importance of having the year where the restoration started and when it was finally measured
+Mention rate and recovery completeness
+
+
 ### Research objectives
+
+Establish restoration success for studies from 2013-2020
+Analyze climate deviation across sites and years
+Assess if there is a relationship between climate departure from normals and restoration success
 
 ### Expected results
 
 Increasing climate deviation from climate normal values in a site will result in less successful restoration. This will also be affected by the type of biome 
-where restoration occurred, the type of metric used to evaluate restoration success, and the climatic factor analysed. 
+where restoration occurred, the type of metric used to evaluate restoration success, and the climatic factor analyzed. 
 
 ## 2. Methods
 
