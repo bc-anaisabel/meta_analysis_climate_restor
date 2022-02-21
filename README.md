@@ -18,7 +18,7 @@ Mention rate and recovery completeness
 This how temperature behaves in a site compared to its normal 
 
 <p align="center">
-  <img src="output/test_MAT_github.png" width="350">
+  <img src="output/test_MAT_github.png" width="350"> <title="accessibility text">
   <img src="[meta_analysis_climate_restor]/output/test_MAT_github.png" width="350">
 </p>
 
