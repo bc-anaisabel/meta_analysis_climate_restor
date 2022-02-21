@@ -19,7 +19,7 @@ This how temperature behaves in a site compared to its normal
 
 <p align="center">
   <img src="output/test_MAT_github.png" width="350" title="Example of one site">
-  <img src="[meta_analysis_climate_restor]/output/test_MAT_github.png" width="350" alt="accessibility text">
+  <img src="[meta_analysis_climate_restor]/output/test_MAT_github.png" width="350">
 </p>
 
 
