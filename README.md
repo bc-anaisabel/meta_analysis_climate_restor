@@ -17,6 +17,12 @@ Mention rate and recovery completeness
 
 ![alt text](https://github.com/[bc-anaisabel]/[meta_analysis_climate_restor]/output/test_MAT_github.png/[main]/image.png?raw=true) is how temperature behaves in a site compared to its normal 
 
+<p align="center">
+  <img src="[bc-anaisabel]/[meta_analysis_climate_restor]/output/test_MAT_github.png" width="350" title="hover text">
+  <img src="[bc-anaisabel]/[meta_analysis_climate_restor]/output/test_MAT_github.png" width="350" alt="accessibility text">
+</p>
+
+
 
 ### Research objectives
 
