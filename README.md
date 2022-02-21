@@ -15,14 +15,14 @@ What is usually considered in restoration
 The importance of having the year where the restoration started and when it was finally measured
 Mention rate and recovery completeness
 
-![alt text](https://github.com/[bc-anaisabel]/[meta_analysis_climate_restor]/output/test_MAT_github.png/[main]/image.png?raw=true) is how temperature behaves in a site compared to its normal 
+This how temperature behaves in a site compared to its normal 
 
 <p align="center">
-  <img src="output/test_MAT_github.png" width="350" title="hover text">
+  <img src="output/test_MAT_github.png" width="350" title="Example of one site">
   <img src="[meta_analysis_climate_restor]/output/test_MAT_github.png" width="350" alt="accessibility text">
 </p>
 
-![plot](./meta_analysis_climate_restor/output/test_MAT_github.png)
+
 
 
 ### Research objectives
