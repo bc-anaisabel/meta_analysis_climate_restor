@@ -15,14 +15,6 @@ What is usually considered in restoration
 The importance of having the year where the restoration started and when it was finally measured
 Mention rate and recovery completeness
 
-This how temperature behaves in a site compared to its normal 
-
-<p align="center">
-  <img src="output/test_MAT_github.png" width="350"> 
-  <img src="[meta_analysis_climate_restor]/output/test_MAT_github.png" width="350" alt="accessibility text">
-</p>
-
-
 
 
 ### Research objectives
@@ -78,6 +70,12 @@ How data should look like
 
 Show data exploration graphics, for each climate variable, for each site, explore each metric, normality 
 
+This how temperature behaves in a site compared to its normal 
+
+<p align="center">
+  <img src="output/test_MAT_github.png" width="350"> 
+  <img src="[meta_analysis_climate_restor]/output/test_MAT_github.png" width="350" alt="accessibility text">
+</p>
 
 
 ## 4. Results and Discussion
