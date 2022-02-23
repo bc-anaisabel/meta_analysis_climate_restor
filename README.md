@@ -36,9 +36,8 @@ Assess if there is a relationship between climate departure from normals and res
 Increasing climate deviation from climate normal values in a site will result in less successful restoration. This will also be affected by the type of biome 
 where restoration occurred, the type of metric used to evaluate restoration success, and the climatic factor analyzed. 
 
-## 2. Methods
+## 2. Methods 
 
-### Data collection
 
 1: Gather studies in terrestrial ecosystems evaluating restoration. Filter parameters: year restoration started, year restoration ended/was evaluated, geographical coordinates, quantitative restoration outcome. Initial period: 1913-2013. Second round 2014-2020. 
 
@@ -57,23 +56,38 @@ climate normal period chosen was 1971-2000.
 
 6: Create database for analysis in R (add example of how would it look like)
 
-### Statistical analysis
-
 1. Data exploration using???? Analyze by biome, ecosystem type, climate metric used, restoration metric used, number of years restoration lasted, period when restoration took place
 
 2. Significance tests
 
 If there are groups clearly formed, test. Test effect using linear mixed regression models? 
 
-## 3. Data
+## 3. Data 
 
-## 4. Results
+Experimental units: each observation in a study is a unit but this is nested, i.e. observations within a study are not independent 
 
-### Results
+Predictor variables, response variables
 
-### Discussion
+Data table original 
 
-### 5. References
+Data table of climate variables
+
+Data table for each location including climate 
+
+How data should look like
+
+Show data exploration graphics, for each climate variable, for each site, explore each metric, normality 
+
+
+
+## 4. Results and Discussion
+
+Plans to receive feedback 
+
+
+### 5. Conclusions, About, References
+
+Inser reference to the other meta-analysis, references, 
 
 
 
