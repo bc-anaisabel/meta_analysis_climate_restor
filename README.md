@@ -54,6 +54,11 @@ climate normal period chosen was 1971-2000.
 
 If there are groups clearly formed, test. Test effect using linear mixed regression models? 
 
+<p align="center">
+  <img src="output/methods_pipeline.png" width="350"> 
+  <img src="[meta_analysis_climate_restor]/output/methods_pipeline.png" width="350" alt="accessibility text">
+</p>
+
 ## 3. Data 
 
 Experimental units: each observation in a study is a unit but this is nested, i.e. observations within a study are not independent 
