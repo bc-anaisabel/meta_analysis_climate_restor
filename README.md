@@ -43,8 +43,7 @@ For this reason for this project I am exploring three different datasets where e
 
 
 <p align="center">
-  <img src="output/methods_pipeline.png" width="800"> 
-  <img src="[meta_analysis_climate_restor]/output/methods_pipeline2.png" width="800">
+  <img src="output/methods_pipeline2.png" width="800"> 
 </p>
 
 Following data exploration I have noted I need to incorporate more studies within North America for this project. Since the observations are nested within the study because they all come from the same location I need many datapoints to be able to compare across latitudes and ecosystem types. Following steps:
