@@ -1,6 +1,6 @@
 # Does climate deviation can predict if restoration of terrestrial ecosystems will be successful? 
 
-In this study I want to analyze if **climate deviation** has an effect in the **restoration** of terrestrial ecosystems.  If climatic conditions have deviated from the climate normal values during which the restoration goals were established, the conditions for successful restoration of the ecosystem might not exist in the same way as before. In this sense, considering changes in recent climatic conditions when developing management plans and establishing restoration targets could help identify restoration priorities. Those sites where the conditions have deviated from normal values could either adjust their targets or active restoration efforts could be better directed to less altered ecosystems. 
+In this study I want to analyze if there is a relationship between **climate deviation** and the success of **restoration** in terrestrial ecosystems.  If climatic conditions have deviated from the climate normal values during which the restoration goals were established, the conditions for successful restoration might not exist in the same way as before. Setting restoration efforts to miss their goals from the start. Consideration of recent changes in climatic conditions when developing management plans and establishing restoration targets could help identify restoration priorities. Sites where the climatic conditions have deviated from normal values could either adjust their targets or active restoration efforts could be better directed to less altered ecosystems. 
 
 
 ## 1. Intro
@@ -15,49 +15,44 @@ What is usually considered in restoration
 The importance of having the year where the restoration started and when it was finally measured
 Mention rate and recovery completeness
 
-
+However I am still exploring which climatic variables would be more useful, which kind of climate deviation estimation is better suited for this and how the site characteristics are going to affect this relationship. 
 
 ### Research objectives
 
-Establish restoration success for studies from 2013-2020
-Analyze climate deviation across sites and years
-Assess if there is a relationship between climate departure from normals and restoration success
+Estimate climate deviation and climatic variables to be used
+Analyze differences in climate deviation across ecosystems, latitudes and years during which restoration took place
+Test the relationship between climate deviation from normals and restoration success
+
+Establish restoration success (response ratio of recovery completeness) for studies from 2013-2020  in North America - identified from data exploration
 
 ### Expected results
 
-Increasing climate deviation from climate normal values in a site will result in less successful restoration. This will also be affected by the type of biome 
-where restoration occurred, the type of metric used to evaluate restoration success, and the climatic factor analyzed. 
+Increasing climate deviation from climate normal values in a site will have a negative relationship with restoration succes. This will be dependent on the type of ecosystem and latitude where restoration occurred, the type of metric used to evaluate restoration success, and the climatic value analyzed.  
 
 ## 2. Methods 
 
 
-1: Gather studies in terrestrial ecosystems evaluating restoration. Filter parameters: year restoration started, year restoration ended/was evaluated, geographical coordinates, quantitative restoration outcome. Initial period: 1913-2013. Second round 2014-2020. 
+Obtaining climate values : Since the period when each restoration varied in duration and start year,  climate normals and historical time series for annual climate variables were designated on a study by study basis. That is, according to the year when the restoration started, the closest climate normal period was chosen for each study. For the historical time series, a period encompassing the first year to the last year of restarion was selected for each study. 
 
-2: Calculate response ratios (recovery completeness and recovery rate) for each of the new studies included in the database
+Climate deviation estimation: At the time I am still exploring which metric to use to estimate climate deviation. I have understood climate deviation as climate anomalies (reference) but I also must account for the extreme climatic changes and the variation in duration of restoration periods across studies. 
+For this reason for this project I am exploring three different datasets where each dataset comes from a different climate deviation estimation:
 
-3: Gather climate normal values for each observation
+1. **AVERAGE**: Obtain the average value across restoration period and subtract from this the corresponding climate normal value for each climate variable
+2. **GREATEST DIFFERENCE**: Choose the value that deviated the most from the climate normal value across the restoration period and subtract from this the corresponding climate normal value for each climate variable
+3. **LAST RESTORATION YEAR**: Choose the values for the last year during which restoration took place and subtract from this the corresponding climate normal value for each climate variable 
 
-Parameters: Climate normals were designated on a study by study basis. According to the year when the restoration started, the closest 
-climate normal period was chosen to be compared against the climate normal posterior to restoration measurement end date. For example if 
-restoration started in 1993, the climate normal period chosen as previous to restoration was 1961-1990; if restoration started in 1998, the 
-climate normal period chosen was 1971-2000. 
-
-4: Gather climate annual average for each year during which the restoration took place
-
-5: Calculate climate deviation value for each climatic metric included
-
-6: Create database for analysis in R (add example of how would it look like)
-
-1. Data exploration using???? Analyze by biome, ecosystem type, climate metric used, restoration metric used, number of years restoration lasted, period when restoration took place
-
-2. Significance tests
-
-If there are groups clearly formed, test. Test effect using linear mixed regression models? 
 
 <p align="center">
   <img src="output/methods_pipeline.png" width="800"> 
-  <img src="[meta_analysis_climate_restor]/output/methods_pipeline.png" width="800" alt="accessibility text">
+  <img src="[meta_analysis_climate_restor]/output/methods_pipeline2.png" width="800">
 </p>
+
+Following data exploration I have noted I need to incorporate more studies within North America for this project. Since the observations are nested within the study because they all come from the same location I need many datapoints to be able to compare across latitudes and ecosystem types. Following steps:
+
+1. Incorporate studies from 2013-2020 to my database
+2. Calculate response ratios of recovery completeness for new studies
+3. Data exploration
+4. Statistical analysis 
 
 ## 3. Data 
 
