@@ -60,13 +60,17 @@ When doing data exploration I have noted I need to incorporate more studies with
 
 ## 3. Data 
 
-The central goal of this study is to measure the relationship between my predictor variable, deviation of climatic variables, and the response variable as recovery completeness. 
+The central goal of this study is to measure the relationship between deviation of climatic variables (*predictor variable*) and recovery completeness (*response variable*). 
 
-Experimental units: each ecosystem property that was evaluated following restoration is an experimental unit because it has a different recovery value, but this is nested within the study where it comes from, i.e. observations are not independent. 
+**Experimental units**: each ecosystem property that was evaluated following restoration is an experimental unit because it has a different recovery value, but this is nested within the study where it comes from, i.e. observations are not independent. 
 
 During this stage I am estimating the predictor variable values for each restoration site, that is establishing the climate variables that will be useful and the deviation for each of them. 
 
- This is how my first [datatable](data/Clim_dev_test.csv) (predictor variables) looks like: 
+This is how my first [datatable](data/DEV3.csv) (predictor variables) looks like: 
+
+<p align="center">
+  <img src="output/PREDICTOR_DATATABLE_SAMPLE.PNG" width="700"> 
+</p>
 
 Data table of climate variables
 
