@@ -68,8 +68,8 @@ During this stage I am estimating the predictor variable values for each restora
 
 This is how my first [datatable](data/DEV3.csv) (predictor variables) looks like: 
 
-<p align="center">
-  <img src="output/PREDICTOR_DATATABLE_SAMPLE.PNG" width="700"> 
+<p align="left">
+  <img src="output/PREDICTOR_DATATABLE_SAMPLE.PNG" width="500"> 
 </p>
 
 Data table of climate variables
