@@ -5,17 +5,14 @@ In this study I want to analyze if there is a relationship between **climate dev
 
 ## 1. Intro
 
-Altered responses to restoration in an ecosystem because changed climatic conditions may create different ecological paths than those planned for with previous restoration goals (Millar & Woolfenden, 1999).
+Ecological restoration intends to re-establish, improve or create ecosystem functions or characteristics previous to a disturbance. The recovery of an ecosystem following restoration then is measured against extant reference ecosystems or pre-disturbance conditions in the same ecosystem (reference). Climate is intrinsically implicated in restoration because it influences current ecosystem processes and characteristics, affecting the ecological path an ecosystem follows following restoration activities; and because climate varies in time it can affect restoration goals and/or metrics that are based in past climate conditions. Moreover, current climatic conditions in certain regions are rapidly changing, and extreme climatic events have been more frequent across the globe (reference). Hence, if restoration and ecosystem management plans do not consider changes in climate, they may fall out of context and become impractical when faced with current and future changes brought by climate extremes and other associated disturbances (Hiers et al., 2016; Robinson et al., 2021). 
 
-Mention: 
-How restoration targets are defined
-Why does it matter what we consider successful restoration in terms of funding 
-Why would a changed climate affect restoration - ecological responses of an ecosystem
-What is usually considered in restoration
-The importance of having the year where the restoration started and when it was finally measured
-Mention rate and recovery completeness
+A meta-analysis study on the recovery of restored ecosystems following disturbances found that although ecosystems progress towards restoration, usually a complete recovery is never reached (Jones et al., 2018). But importantly, the authors also found that the degree and rate of recovery was variable depending on factors like ecosystem type and the recovery metrics used to measure restoration success. Monitoring the outcomes of restoration actions against the restoration targets is necessary and although restoration projects have been increasingly performing an evaluation (reference), this is usually done on an individual-project basis, hence knowledge on patterns of recovery across different ecosystems globally is still reduced (Jones et al., 2018). 
 
-However I am still exploring which climatic variables would be more useful, which kind of climate deviation estimation is better suited for this and how the site characteristics are going to affect this relationship. 
+To address this, there have been proposals to for assessing the previous climatic conditions in the site that is to be restored. These have involved the use of climate normals as reasonable time period to compare and… (Soulé, 2005; Millar and Woolfenden, 1999; Copeland et al 2018). If climatic variables in a disturbed ecosystem have deviated considerably compared to its ‘climate normal’ values (Marchi et al., 2020), the conditions for restoration might not exist in the same way as before. Thus, by assessing the recovery of past restoration sites based on the meta-analysis by Jones and collaborators (2018) and incorporating the climate values to assess climate deviation from normals,  I intend to test if it could be a tool for future management plans and establishing restoration goals. 
+
+
+ 
 
 ### Research objectives
 
