@@ -84,6 +84,11 @@ Where each observation is a row and columns are the climate variables deviation 
   <img src="output/Table_data_variables.png" width="500"> 
 </p>
 
+Exploration grouping observations by study using latitude. Vectors show the deviation of climate variable that explains how much these variate between latitudes. 
+
+<p align="left">
+  <img src="output/NMDS_Latitude_Euclidean_sqrt.png" width="500"> 
+</p>
 
 
 
