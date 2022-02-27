@@ -11,7 +11,9 @@ A meta-analysis study on the recovery of restored ecosystems following disturban
 
 To address this, there have been proposals to for assessing the previous climatic conditions in the site that is to be restored. These have involved the use of climate normals as reasonable time period to compare and… (Soulé, 2005; Millar and Woolfenden, 1999; Copeland et al 2018). If climatic variables in a disturbed ecosystem have deviated considerably compared to its ‘climate normal’ values (Marchi et al., 2020), the conditions for restoration might not exist in the same way as before. Thus, by assessing the recovery of past restoration sites based on the meta-analysis by Jones and collaborators (2018) and incorporating the climate values to assess climate deviation from normals,  I intend to test if it could be a tool for future management plans and establishing restoration goals. 
 
-
+<p align="center">
+  <img src="output/intro.png" width="600"> 
+</p>
  
 
 ### Research objectives
@@ -40,7 +42,7 @@ For this reason for this project I am exploring three different datasets where e
 
 
 <p align="center">
-  <img src="output/methods_pipeline2.png" width="800"> 
+  <img src="output/methods_pipeline2.png" width="700"> 
 </p>
 
 Following data exploration I have noted I need to incorporate more studies within North America for this project. Since the observations are nested within the study because they all come from the same location I need many datapoints to be able to compare across latitudes and ecosystem types. Following steps:
