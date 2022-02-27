@@ -72,7 +72,7 @@ This is how my first [datatable](data/DEV3.csv) (predictor variables) looks like
   <img src="output/EDIT_PRED_DATA.png" width="500"> 
 </p>
 
-Data table of climate variables
+The original data looks like this
 
 Data table for each location including climate 
 
