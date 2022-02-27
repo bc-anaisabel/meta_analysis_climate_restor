@@ -37,7 +37,7 @@ Increasing climate deviation from climate normal values in a site will have a ne
 
 Obtaining climate values : Since the period when each restoration varied in duration and start year,  climate normals and historical time series for annual climate variables were designated on a study by study basis. That is, according to the year when the restoration started, the closest climate normal period was chosen for each study. For the historical time series, a period encompassing the first year to the last year of restarion was selected for each study. 
 
-Climate deviation estimation: At the time I am still exploring which metric to use to estimate climate deviation. I have understood climate deviation as climate anomalies (reference) but I also must account for the extreme climatic changes and the variation in duration of restoration periods across studies. 
+Climate deviation estimation: I am still exploring which metric to use to estimate climate deviation. I have understood climate deviation as climate anomalies (Soule 2005) but I also must account for the extreme climatic changes and the variation in duration of restoration periods across studies. 
 For this reason for this project I am exploring three different datasets where each dataset comes from a different climate deviation estimation:
 
 1. **AVERAGE**: Obtain the average value across restoration period and subtract from this the corresponding climate normal value for each climate variable
@@ -49,18 +49,18 @@ For this reason for this project I am exploring three different datasets where e
   <img src="output/methods_pipeline2.png" width="700"> 
 </p>
 
-Following data exploration I have noted I need to incorporate more studies within North America for this project. Since the observations are nested within the study because they all come from the same location I need many datapoints to be able to compare across latitudes and ecosystem types. Following steps:
+When doing data exploration I have noted I need to incorporate more studies within North America because after filtering for the parameters my study requires, the n reduced to 10. Since the observations are nested within the study because they all come from the same location, I need as much datapoints as possible to be able to compare across latitudes and ecosystem types. Following steps:
 
-1. Incorporate studies from 2013-2020 to my database
+1. Incorporate studies from 2013-2020 to original database
 2. Calculate response ratios of recovery completeness for new studies
-3. Data exploration
+3. Data exploration with increased database
 4. Statistical analysis 
 
 ## 3. Data 
 
-Experimental units: each observation in a study is a unit but this is nested, i.e. observations within a study are not independent 
+Experimental units: each environmental restoration variable is an experimental unit because it has a different recovery value but this is nested within the study where it comes from, i.e. observations within a study are not independent. 
 
-Predictor variables, response variables
+So far I have not gotten to test the relationships between predictor and response variables, but the predictor variable is the climate deviation value for each climatic variable (multiple predictor variables) and the response variable is the recovery completeness. 
 
 Data table original 
 
