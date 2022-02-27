@@ -22,15 +22,17 @@ To address this, there have been proposals to for assessing the previous climati
 
 ### Research objectives
 
-Estimate climate deviation and climatic variables to be used
-Analyze differences in climate deviation across ecosystems, latitudes and years during which restoration took place
-Test the relationship between climate deviation from normals and restoration success
 
-Establish restoration success (response ratio of recovery completeness) for studies from 2013-2020  in North America - identified from data exploration
+- Establish restoration success (response ratio of recovery completeness) for studies from 2013-2020 in North America - (*identified from data exploration*)
+
+- Determine if there are climatic variables that affect the recovery trajectory of a restored ecosystem more than others
+
+- Identify if there is relationship between climate deviation and restoration success and which factors participate in the direction and strenght of the relationship (e.g. ecosystem type, latitude, restoration period, recovery metric) 
+
 
 ### Expected results
 
-Increasing climate deviation from climate normal values in a site will have a negative relationship with restoration succes. This will be dependent on the type of ecosystem and latitude where restoration occurred, the type of metric used to evaluate restoration success, and the climatic value analyzed.  
+Increasing climate deviation from climate normal values in a site will have a negative relationship with restoration succes. This will be dependent on the type of ecosystem and latitude where restoration occurred, the type of metric used to evaluate restoration success, and the climatic variable considered. If the relationship is testable, then this could serve in restoration ecology for creating restoration models and could eventually be used in restoration practices. The identification of sites where relevant climatic variables (according to the ecosystem and latitude) have deviated considerably,  would help establish restoration priorities to save time and money. Active restoration could be targeted towards places more prone to recover. 
 
 ## 2. Methods 
 
@@ -54,15 +56,17 @@ When doing data exploration I have noted I need to incorporate more studies with
 1. Incorporate studies from 2013-2020 to original database
 2. Calculate response ratios of recovery completeness for new studies
 3. Data exploration with increased database
-4. Statistical analysis 
+4. Statistical analysis: establishing associations between climate deviation dataset and recovery completeness dataset 
 
 ## 3. Data 
 
-Experimental units: each environmental restoration variable is an experimental unit because it has a different recovery value but this is nested within the study where it comes from, i.e. observations within a study are not independent. 
+The central goal of this study is to measure the relationship between my predictor variable, deviation of climatic variables, and the response variable as recovery completeness. 
 
-So far I have not gotten to test the relationships between predictor and response variables, but the predictor variable is the climate deviation value for each climatic variable (multiple predictor variables) and the response variable is the recovery completeness. 
+Experimental units: each ecosystem property that was evaluated following restoration is an experimental unit because it has a different recovery value, but this is nested within the study where it comes from, i.e. observations are not independent. 
 
-Data table original 
+During this stage I am estimating the predictor variable values for each restoration site, that is establishing the climate variables that will be useful and the deviation for each of them. 
+
+ This is how my first [datatable](data/Clim_dev_test.csv) (predictor variables) looks like: 
 
 Data table of climate variables
 
