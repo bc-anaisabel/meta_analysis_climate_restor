@@ -43,7 +43,7 @@ Climate deviation estimation: I am still exploring which metric to use to estima
 For this reason for this project I am exploring three different datasets where each dataset comes from a different climate deviation estimation:
 
 1. **AVERAGE**: Obtain the average value across restoration period and subtract from this the corresponding climate normal value for each climate variable
-2. **GREATEST DIFFERENCE**: Choose the value that deviated the most from the climate normal value across the restoration period and subtract from this the corresponding climate normal value for each climate variable
+2. **GREATEST DIFFERENCE**: Choose the value that deviated the most from the climate normal value across the restoration period and subtract from this the corresponding climate normal value for each climate variable (*In progress: to be calculated and added to this site*)
 3. **LAST RESTORATION YEAR**: Choose the values for the last year during which restoration took place and subtract from this the corresponding climate normal value for each climate variable 
 
 
@@ -60,38 +60,38 @@ When doing data exploration I have noted I need to incorporate more studies with
 
 ## 3. Data 
 
-The central goal of this study is to measure the relationship between deviation of climatic variables (*predictor variable*) and recovery completeness (*response variable*). 
+The central goal of this study is to measure the relationship between deviation of climatic variables (*predictor variable*) and recovery completeness (*response variable*). For this end there will be 2 datasets that will be combined: 
+
+1. The original [datatable] (metadata) containing all restoration metrics and study information
+2. The datatable (one per climate deviation calculation method) containing all climate deviation values
 
 **Experimental units**: each ecosystem property that was evaluated following restoration is an experimental unit because it has a different recovery value, but this is nested within the study where it comes from, i.e. observations are not independent. 
 
-During this stage I am estimating the predictor variable values for each restoration site, that is establishing the climate variables that will be useful and the deviation for each of them. 
+During this stage I am doing data exploration of the second dataset by:
 
-This is how my first [datatable](data/DEV3.csv) (predictor variables) looks like: 
+1. Calculating the deviation for each climate variable with the 3 different methods 
+2. Establishing the climate variables that will be useful. This conforms be the second dataset datatable. The first one is the [datatable] drawn from the original meta-analysis which covers all restoration metrics
+
+This is how the second [dataset](data/DEV3.csv) (predictor variables) looks like: 
 
 <p align="left">
   <img src="output/EDIT_PRED_DATA.png" width="500"> 
 </p>
 
-The original data looks like this
+Where each observation is a row and columns are climate variables deviation values (the complete datafile contains more climate variables that the ones shown here). There is a datatable for each climate deviation estimation method. 
 
-Data table for each location including climate 
-
-How data should look like
-
-Show data exploration graphics, for each climate variable, for each site, explore each metric, normality 
-
-This how temperature behaves in a site compared to its normal 
-
-<p align="center">
-  <img src="output/test_MAT_github.png" width="350"> 
-  <img src="[meta_analysis_climate_restor]/output/test_MAT_github.png" width="350" alt="accessibility text">
+<p align="left">
+  <img src="output/Table_data_variables.png" width="500"> 
 </p>
+
+
 
 
 ## 4. Results and Discussion
 
 Plans to receive feedback 
 
+Later on I will explore the relationship between the first and the second dataset by using correlation analysis
 
 ### 5. Conclusions, About, References
 
