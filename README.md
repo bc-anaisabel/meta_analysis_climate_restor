@@ -62,7 +62,7 @@ When doing data exploration I have noted I need to incorporate more studies with
 
 The central goal of this study is to measure the relationship between deviation of climatic variables (*predictor variable*) and recovery completeness (*response variable*). For this end there will be 2 datasets that will be combined in the final analysis: 
 
-1. The original [datatable](output/Clim_dev_test.csv) containing all restoration metrics and study information
+1. The original [datatable](data/Clim_dev_test.csv) containing all restoration metrics and study information
 2. The [datatable](data/DEV3.csv) (one per climate deviation calculation method) containing all climate deviation values
 
 **Experimental units**: each ecosystem property that was evaluated following restoration is an experimental unit because it has a different recovery value, but this is nested within the study where it comes from, i.e. observations are not independent. 
