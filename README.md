@@ -60,17 +60,17 @@ When doing data exploration I have noted I need to incorporate more studies with
 
 ## 3. Data 
 
-The central goal of this study is to measure the relationship between deviation of climatic variables (*predictor variable*) and recovery completeness (*response variable*). For this end there will be 2 datasets that will be combined: 
+The central goal of this study is to measure the relationship between deviation of climatic variables (*predictor variable*) and recovery completeness (*response variable*). For this end there will be 2 datasets that will be combined in the final analysis: 
 
-1. The original [datatable] (metadata) containing all restoration metrics and study information
-2. The datatable (one per climate deviation calculation method) containing all climate deviation values
+1. The original [datatable](output/Clim_dev_test.csv) containing all restoration metrics and study information
+2. The [datatable](data/DEV3.csv) (one per climate deviation calculation method) containing all climate deviation values
 
 **Experimental units**: each ecosystem property that was evaluated following restoration is an experimental unit because it has a different recovery value, but this is nested within the study where it comes from, i.e. observations are not independent. 
 
 During this stage I am doing data exploration of the second dataset by:
 
-1. Calculating the deviation for each climate variable with the 3 different methods 
-2. Establishing the climate variables that will be useful. This conforms be the second dataset datatable. The first one is the [datatable] drawn from the original meta-analysis which covers all restoration metrics
+1. Calculating the deviation for each climate variable with the 3 different methods and assessing the uselfulness of each
+2. Establishing the climate variables that will be useful. 
 
 This is how the second [dataset](data/DEV3.csv) (predictor variables) looks like: 
 
@@ -78,7 +78,7 @@ This is how the second [dataset](data/DEV3.csv) (predictor variables) looks like
   <img src="output/EDIT_PRED_DATA.png" width="500"> 
 </p>
 
-Where each observation is a row and columns are climate variables deviation values (the complete datafile contains more climate variables that the ones shown here). There is a datatable for each climate deviation estimation method. 
+Where each observation is a row and columns are the climate variables deviation values (the complete datafile contains more climate variables that the ones shown here). 
 
 <p align="left">
   <img src="output/Table_data_variables.png" width="500"> 
