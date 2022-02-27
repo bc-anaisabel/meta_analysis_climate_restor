@@ -2,6 +2,10 @@
 
 In this study I want to analyze if there is a relationship between **climate deviation** and the success of **restoration** in terrestrial ecosystems.  If climatic conditions have deviated from the climate normal values during which the restoration goals were established, the conditions for successful restoration might not exist in the same way as before. Setting restoration efforts to miss their goals from the start. Consideration of recent changes in climatic conditions when developing management plans and establishing restoration targets could help identify restoration priorities. Sites where the climatic conditions have deviated from normal values could either adjust their targets or active restoration efforts could be better directed to less altered ecosystems. 
 
+<p align="center">
+  <img src="output/Standards_Restorative_Contin.png" width="600"> 
+</p>
+
 
 ## 1. Intro
 
