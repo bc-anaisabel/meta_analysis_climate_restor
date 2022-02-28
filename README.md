@@ -7,6 +7,12 @@ In this study I want to analyze if there is a relationship between **climate dev
 </p>
  Figure 1. Restorative continuum. "Activities undertaken by society to repair damage to the broader environment, complement ecological restoration and provide improved conditions for broad scale recovery". From the [Society for Ecological Restoration](https://www.ser.org/general/custom.asp?page=SERNews3112)
 
+In this repository you can find: 
+- R script for data exploration in the [bin](bin/) folder
+- The original [dataset](/data/Clim_dev_test.csv) and the second [dataset](/data/DEV1) that includes climate values in the [data](/data/) folder
+- The output files including graphs, tables and images for illustration of this project in the [output](/output/) folder
+
+
 
 ## 1. Intro
 
@@ -93,7 +99,9 @@ Data were first scaled because of the unit differences across climate variables.
 <p align="left">
   <img src="output/NMDS_Latitude_Euclidean_sqrt.png" width="500"> 
 </p>
-Figure 3 [NMDS](bin/EXPLORING_DEVIATION_DATA.R) using a euclidean distance matrix
+Figure 3.  NMDS using an euclidean distance matrix
+
+The script I used to do this can be found [here](bin/EXPLORING_DEVIATION_DATA.R)
 
 ##
 
