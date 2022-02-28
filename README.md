@@ -36,11 +36,7 @@ Increasing climate deviation from climate normal values in a site will have a ne
 
 ## 2. Methods 
 
-
-Obtaining climate values : Since the period when each restoration varied in duration and start year,  climate normals and historical time series for annual climate variables were designated on a study by study basis. That is, according to the year when the restoration started, the closest climate normal period was chosen for each study. For the historical time series, a period encompassing the first year to the last year of restarion was selected for each study. 
-
-Climate deviation estimation: I am still exploring which metric to use to estimate climate deviation. I have understood climate deviation as climate anomalies (Soule 2005) but I also must account for the extreme climatic changes and the variation in duration of restoration periods across studies. 
-For this reason for this project I am exploring three different datasets where each dataset comes from a different climate deviation estimation:
+In the early stages of this project I am exploring three different climate deviation estimations:
 
 1. **AVERAGE**: Obtain the average value across restoration period and subtract from this the corresponding climate normal value for each climate variable
 2. **GREATEST DIFFERENCE**: Choose the value that deviated the most from the climate normal value across the restoration period and subtract from this the corresponding climate normal value for each climate variable (*In progress: to be calculated and added to this site*)
@@ -48,10 +44,14 @@ For this reason for this project I am exploring three different datasets where e
 
 
 <p align="center">
-  <img src="output/methods_pipeline2.png" width="700"> 
+  <img src="output/methods_pipeline2.png" width="1000"> 
 </p>
 
-When doing data exploration I have noted I need to incorporate more studies within North America because after filtering for the parameters my study requires, the n reduced to 10. Since the observations are nested within the study because they all come from the same location, I need as much datapoints as possible to be able to compare across latitudes and ecosystem types. Following steps:
+
+
+*Obtaining climate values*: Since the period when each restoration varied in duration and start year,  climate normals and historical time series for annual climate variables were designated on a study by study basis. That is, according to the year when the restoration started, the closest climate normal period was chosen for each study. For the historical time series, a period encompassing the first year to the last year of restarion was selected for each study. 
+
+*Data exploration*: This project will need to incorporate more studies within North America because after filtering for the required parameters, the sample size was greatly reduced (**n=10**). Since restoration observations are nested within the study (although each observation has a different restoration value, the climate values are dependent on the location of the study, which remains unchanged across observations from the same study), I need as much different studies as possible to be able to compare across latitudes and ecosystem types within the North America region. In the future I will also include studies from around the globe. Following steps:
 
 1. Incorporate studies from 2013-2020 to original database
 2. Calculate response ratios of recovery completeness for new studies
