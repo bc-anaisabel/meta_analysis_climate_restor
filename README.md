@@ -44,10 +44,12 @@ In the early stages of this project I am exploring three different climate devia
 3. **LAST RESTORATION YEAR**: Choose the values for the last year during which restoration took place and subtract from this the corresponding climate normal value for each climate variable 
 
 
+
 <p align="center">
   <img src="output/methods_pipeline2.png" width="1000"> 
 </p>
 Figure 3. Intended project pipeline
+
 
 
 
@@ -61,7 +63,7 @@ The central goal of this study is to measure the relationship between deviation 
 1. The original [datatable](data/Clim_dev_test.csv) containing all restoration metrics and study information
 2. The [datatable](data/DEV3.csv) (one per climate deviation calculation method) containing all climate deviation values
 
-**Experimental units**: each ecosystem aspect that was evaluated in restoration is an experimental unit, but this is nested within the study where it comes from, i.e. observations are not independent. 
+- Experimental units: each ecosystem aspect that was evaluated in restoration is an experimental unit, but this is nested within the study where it comes from, i.e. observations are not independent. 
 
 During this stage I am doing data exploration of the second dataset by:
 
@@ -74,6 +76,7 @@ Table1. Dataset of studies and climate deviation values
 <p align="left">
   <img src="output/EDIT_PRED_DATA.png" width="1000"> 
 </p>
+
 
 Where each observation is a row and columns are the climate deviation values (the complete datafile contains more climate variables that the ones shown here). 
 
