@@ -49,14 +49,8 @@ In the early stages of this project I am exploring three different climate devia
 
 
 
-*Obtaining climate values*: Since the period when each restoration varied in duration and start year,  climate normals and historical time series for annual climate variables were designated on a study by study basis. That is, according to the year when the restoration started, the closest climate normal period was chosen for each study. For the historical time series, a period encompassing the first year to the last year of restarion was selected for each study. 
+*Obtaining climate values*: Since the period when each restoration varied in duration and start year,  climate normals and historical time series for annual climate variables were designated on a study by study basis. That is, according to the year when the restoration started, the closest climate normal period was chosen for each study. For the historical time series, a period encompassing the first year to the last year of restoration was selected for each study. 
 
-*Data exploration*: This project will need to incorporate more studies within North America because after filtering for the required parameters, the sample size was greatly reduced (**n=10**). Since restoration observations are nested within the study (although each observation has a different restoration value, the climate values are dependent on the location of the study, which remains unchanged across observations from the same study), I need as much different studies as possible to be able to compare across latitudes and ecosystem types within the North America region. In the future I will also include studies from around the globe. Following steps:
-
-1. Incorporate studies from 2013-2020 to original database
-2. Calculate response ratios of recovery completeness for new studies
-3. Data exploration with increased database
-4. Statistical analysis: establishing associations between climate deviation dataset and recovery completeness dataset 
 
 ## 3. Data 
 
@@ -84,13 +78,24 @@ Where each observation is a row and columns are the climate variables deviation 
   <img src="output/Table_data_variables.png" width="500"> 
 </p>
 
-Exploration grouping observations by study using latitude. Vectors show the deviation of climate variable that explains how much these variate between latitudes. 
+###Exploration of observations grouping by study and using latitude as identifiers###
+
+[NMDS using a euclidean distance matrix]. Data were first scaled because of the unit differences across climate variables. 
+
+Vectors show deviation values for climate variables, testing if latitude has if climate variables explain the variation across latitudes. 
 
 <p align="left">
   <img src="output/NMDS_Latitude_Euclidean_sqrt.png" width="500"> 
 </p>
 
 
+
+*Data exploration*: During data exploration I detected the project will need to incorporate more studies within North America at this stage. After filtering for the required parameters, the sample size was greatly reduced (**n=10**). Although restoration observations are considerable for a thorough comparison, the climate values associated to each observation are dependent on the location of the study, which remains unchanged across all observations coming from the same study. So, **observations are nested within study**. Since this is a meta-analysis in the search for patterns, I need as many datapoints as possible to be able to compare across latitudes and ecosystem types within the North America region. Following steps then are: 
+
+1. Incorporate terrestrial restoration studies in North America from 2013-2020 to the original database
+2. Calculate response ratios of recovery completeness for new studies
+3. Data exploration with increased database
+4. Statistical analysis: establishing associations between climate deviation dataset and recovery completeness dataset 
 
 ## 4. Results and Discussion
 
