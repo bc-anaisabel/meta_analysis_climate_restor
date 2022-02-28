@@ -1,10 +1,11 @@
 # Does climate deviation can predict if restoration of terrestrial ecosystems will be successful? 
 
-In this study I want to analyze if there is a relationship between **climate deviation** and the success of **restoration** in terrestrial ecosystems.  If climatic conditions have deviated from the climate normal values during which the restoration goals were established, the conditions for successful restoration might not exist in the same way as before. To do so I will do a meta-analysis looking at terrestrial restoration studies in North America initially and then globally. I will first estimate climate deviation and important climatic variables to consider. Then I will analyze the relationship between climate deviation and restoration success and the possible effects of variables like latitude, ecosystem type and restoration metric. Consideration of recent changes in climatic conditions when developing management plans and establishing restoration targets could help identify restoration priorities. Sites where the climatic conditions have deviated from normal values could either adjust their targets or active restoration efforts could be better directed to less altered ecosystems. 
+In this study I want to analyze if there is a relationship between **climate deviation** and the success of **restoration** in terrestrial ecosystems.  If climatic conditions have deviated from the climate normal values during which the restoration goals were established, the conditions for successful restoration might not exist in the same way as before. To do so I will do a meta-analysis looking at terrestrial restoration studies in North America initially and then globally. I will first estimate climate deviation and important climatic variables to consider. Then I will analyze the relationship between climate deviation and restoration success and the possible effects of variables like latitude, ecosystem type and restoration metric. Consideration of recent changes in climatic conditions when developing management plans and establishing restoration targets could help identify restoration priorities (Figure1). Sites where the climatic conditions have deviated from normal values could either adjust their targets or active restoration efforts could be better directed to less altered ecosystems. 
 
 <p align="center">
   <img src="output/Standards_Restorative_Contin.png" width="600"> 
 </p>
+ Figure 1. Restorative continuum. "Activities undertaken by society to repair damage to the broader environment, complement ecological restoration and provide improved conditions for broad scale recovery". From the [Society for Ecological Restoration](https://www.ser.org/general/custom.asp?page=SERNews3112)
 
 
 ## 1. Intro
@@ -18,7 +19,7 @@ To address this, there have been proposals to for assessing the previous climati
 <p align="center">
   <img src="output/intro.png" width="600"> 
 </p>
- 
+ Figure 2. Trajectory of an ecosystem following restoration affected by climate variation. Modified from reference [6]. 
 
 ### Research objectives
 
@@ -46,6 +47,7 @@ In the early stages of this project I am exploring three different climate devia
 <p align="center">
   <img src="output/methods_pipeline2.png" width="1000"> 
 </p>
+Figure 3. Intended project pipeline
 
 
 
@@ -66,27 +68,29 @@ During this stage I am doing data exploration of the second dataset by:
 1. Calculating the deviation for each climate variable with the 3 different methods and assessing the uselfulness of each
 2. Establishing the climate variables that will be most useful
 
-This is how the second [dataset](data/DEV3.csv) (predictor variables) looks like, the climate variables are continuous: 
+This is how the second [dataset](data/DEV3.csv) looks like where the climate variables (predictor variables) are continuous: 
 
+Table1. Dataset of studies and climate deviation values
 <p align="left">
   <img src="output/EDIT_PRED_DATA.png" width="1000"> 
 </p>
 
 Where each observation is a row and columns are the climate deviation values (the complete datafile contains more climate variables that the ones shown here). 
 
+Table 2. Variables used in dataset of table 1
 <p align="left">
   <img src="output/Table_data_variables.png" width="500"> 
 </p>
 
 ### Exploration of observations grouping by study and using latitude as identifiers ###
 
-[NMDS using a euclidean distance matrix](bin/EXPLORING_DEVIATION_DATA.R). Data were first scaled because of the unit differences across climate variables. 
+Data were first scaled because of the unit differences across climate variables. 
 Vectors show deviation values for climate variables, testing if latitude has if climate variables explain the variation across latitudes. 
 
 <p align="left">
   <img src="output/NMDS_Latitude_Euclidean_sqrt.png" width="500"> 
 </p>
-
+Figure 3. [NMDS using a euclidean distance matrix](bin/EXPLORING_DEVIATION_DATA.R).
 
 
 During data exploration I detected the project will need to incorporate more studies within North America at this stage. After filtering for the required parameters, the sample size was greatly reduced (**n=10**). Although restoration observations are considerable for a thorough comparison, the climate values associated to each observation are dependent on the location of the study, which remains unchanged across all observations coming from the same study. So, **observations are nested within study**. Since this is a meta-analysis in the search for patterns, I need as many datapoints as possible to be able to compare across latitudes and ecosystem types within the North America region. Following steps then are: 
