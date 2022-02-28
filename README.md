@@ -51,6 +51,7 @@ In the early stages of this project I am exploring three different climate devia
 Figure 3. Intended project pipeline
 
 
+##
 
 
 *Obtaining climate values*: Since the period when each restoration varied in duration and start year,  climate normals and historical time series for annual climate variables were designated on a study by study basis. That is, according to the year when the restoration started, the closest climate normal period was chosen for each study. For the historical time series, a period encompassing the first year to the last year of restoration was selected for each study. 
@@ -95,6 +96,7 @@ Vectors show deviation values for climate variables, testing if latitude has if 
 </p>
 Figure 3. [NMDS using a euclidean distance matrix](bin/EXPLORING_DEVIATION_DATA.R).
 
+##
 
 During data exploration I detected the project will need to incorporate more studies within North America at this stage. After filtering for the required parameters, the sample size was greatly reduced (**n=10**). Although restoration observations are considerable for a thorough comparison, the climate values associated to each observation are dependent on the location of the study, which remains unchanged across all observations coming from the same study. So, **observations are nested within study**. Since this is a meta-analysis in the search for patterns, I need as many datapoints as possible to be able to compare across latitudes and ecosystem types within the North America region. Following steps then are: 
 
