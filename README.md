@@ -5,7 +5,7 @@ In this study I want to analyze if there is a relationship between **climate dev
 <p align="center">
   <img src="output/Standards_Restorative_Contin.png" width="600"> 
 </p>
- *Figure 1. Restorative continuum. "Activities undertaken by society to repair damage to the broader environment, complement ecological restoration and provide improved conditions for broad scale recovery". From the [Society for Ecological Restoration](https://www.ser.org/general/custom.asp?page=SERNews3112)*
+ Figure 1. Restorative continuum. "Activities undertaken by society to repair damage to the broader environment, complement ecological restoration and provide improved conditions for broad scale recovery". From the [Society for Ecological Restoration](https://www.ser.org/general/custom.asp?page=SERNews3112)
 
 
 ## 1. Intro
@@ -19,7 +19,7 @@ To address this, there have been proposals to for assessing the previous climati
 <p align="center">
   <img src="output/intro.png" width="600"> 
 </p>
- *Figure 2. Trajectory of an ecosystem following restoration affected by climate variation. Modified from reference [6].* 
+ Figure 2. Trajectory of an ecosystem following restoration affected by climate variation. Modified from reference [6]
 
 ### Research objectives
 
@@ -48,7 +48,7 @@ In the early stages of this project I am exploring three different climate devia
 <p align="center">
   <img src="output/methods_pipeline2.png" width="1000"> 
 </p>
-*Figure 3. Intended project pipeline*
+Figure 3. Intended project pipeline
 
 
 ##
@@ -94,7 +94,7 @@ Vectors show deviation values for climate variables, testing if latitude has if 
 <p align="left">
   <img src="output/NMDS_Latitude_Euclidean_sqrt.png" width="500"> 
 </p>
-*Figure 3 [NMDS using a euclidean distance matrix](bin/EXPLORING_DEVIATION_DATA.R)*
+Figure 3 [NMDS](bin/EXPLORING_DEVIATION_DATA.R) using a euclidean distance matrix
 
 ##
 
