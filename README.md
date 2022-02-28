@@ -78,10 +78,9 @@ Where each observation is a row and columns are the climate variables deviation 
   <img src="output/Table_data_variables.png" width="500"> 
 </p>
 
-###Exploration of observations grouping by study and using latitude as identifiers###
+### Exploration of observations grouping by study and using latitude as identifiers ###
 
-[NMDS using a euclidean distance matrix]. Data were first scaled because of the unit differences across climate variables. 
-
+[NMDS using a euclidean distance matrix](bin/EXPLORING_DEVIATION_DATA.R). Data were first scaled because of the unit differences across climate variables. 
 Vectors show deviation values for climate variables, testing if latitude has if climate variables explain the variation across latitudes. 
 
 <p align="left">
