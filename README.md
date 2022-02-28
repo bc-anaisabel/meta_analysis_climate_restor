@@ -75,7 +75,7 @@ During this stage I am doing data exploration of the second dataset by:
 This is how the second [dataset](data/DEV3.csv) (predictor variables) looks like: 
 
 <p align="left">
-  <img src="output/EDIT_PRED_DATA.png" width="500"> 
+  <img src="output/EDIT_PRED_DATA.png" width="1000"> 
 </p>
 
 Where each observation is a row and columns are the climate variables deviation values (the complete datafile contains more climate variables that the ones shown here). 
