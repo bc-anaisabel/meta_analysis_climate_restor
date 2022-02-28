@@ -54,7 +54,7 @@ Figure 3. Intended project pipeline
 ##
 
 
-*Obtaining climate values*: Since the period when each restoration varied in duration and start year,  climate normals and historical time series for annual climate variables were designated on a study by study basis. That is, according to the year when the restoration started, the closest climate normal period was chosen for each study. For the historical time series, a period encompassing the first year to the last year of restoration was selected for each study. 
+Obtaining climate values: Since the period when each restoration varied in duration and start year,  climate normals and historical time series for annual climate variables were designated on a study by study basis. That is, according to the year when the restoration started, the closest climate normal period was chosen for each study. For the historical time series, a period encompassing the first year to the last year of restoration was selected for each study. 
 
 
 ## 3. Data 
@@ -113,7 +113,7 @@ I think the most important analysis for climate deviation will be the one lookin
 
 Following data exploration when more datapoints have been added, I will explore the relationship between the first and the second dataset by using classification and regression tree analysis. 
 
-## 5. Conclusions, About, References (*in progress)
+## 5. Conclusions, About, References (*in progress*)
 
 ### References ###
 [1] Hobbs, R. J., & Norton, D. A. (1996). Towards a conceptual framework for restoration ecology. Restoration ecology, 4(2), 93-110 
