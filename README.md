@@ -88,8 +88,7 @@ Where each observation is a row and columns are the climate deviation values (th
 
 ### Exploration of observations grouping by study and using latitude as identifiers ###
 
-Data were first scaled because of the unit differences across climate variables. 
-Vectors show deviation values for climate variables, testing if latitude has if climate variables explain the variation across latitudes. 
+Data were first scaled because of the unit differences across climate variables. Vectors use deviation values for climate variables for the different studies, testing if latitude is related to the variation in climate deviation across different climate variables. 
 
 <p align="left">
   <img src="output/NMDS_Latitude_Euclidean_sqrt.png" width="500"> 
