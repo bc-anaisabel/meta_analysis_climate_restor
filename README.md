@@ -85,26 +85,23 @@ During data exploration I detected the project will need to incorporate more stu
 
 ## 3. Data 
 
-There are 2 datasets: 
+The dataset is divided into 2 database tables:
 
-1. The original [datatable](data/Clim_dev_test.csv) containing all restoration metrics and study information
-2. The datatable containing the study, metric of restoration, recovery completeness and values for the three approaches to estimate climate associations
+1. The original [database](data/Clim_dev_test.csv) containing all restoration metrics and study information
+2. The database containing the study, metric of restoration, recovery completeness and values for the three approaches to estimate climate associations
 
 - Experimental units: each ecosystem aspect that was evaluated in restoration is an experimental unit, but this is nested within the study where it comes from, i.e. observations are not independent. 
 
-- Predictor variable and response variable: 
 
+This is how the second [database table](data/DEV3.csv) looks like where the climate variables (predictor variables) are continuous: 
 
-
-This is how the second [dataset](data/DEV3.csv) looks like where the climate variables (predictor variables) are continuous: 
-
-*Table1. Dataset of studies and climate deviation values*
+*Table1. Database table of studies and climate variables*
 <p align="left">
-  <img src="output/EDIT_PRED_DATA.png" width="1000"> 
+  <img src="output/Data_2.png" width="1000"> 
 </p>
 
 
-Where each observation is a row and columns are the climate deviation values (the complete datafile contains more climate variables that the ones shown here). 
+Where each row refers to a different restoration observation and climate variables and recovery values are in columns (the complete database contains more climate observations that the ones shown here). 
 
 *Table 2. Variables used in dataset of Table 1*
 <p align="left">
