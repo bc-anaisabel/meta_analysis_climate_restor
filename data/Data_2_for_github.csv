@@ -1,0 +1,174 @@
+﻿ID,ID_STUDY,HabitatCat,RV,Metric.for.merge,DisturbCat,Year.start.data.were.taken,Year.end.data.were.taken,Control,Latitude,Longitude,Diversity,Abundance,Nutrient,Nitrogen,CMI_6190,CMI_avg_diff,CMI_ext
+4488,1,Forest,Annual average current velocity bedrock,Water characteristic,Logging,1977,1993,ref site,35.12,-83.34,,,,,63.22,-4.38,17.79
+4489,1,Forest,Annual average current velocity depositional,Water characteristic,Logging,1977,1993,ref site,35.12,-83.34,,,,,63.22,-4.38,17.79
+4490,1,Forest,Annual average current velocity riffle,Water characteristic,Logging,1977,1993,ref site,35.12,-83.34,,,,,63.22,-4.38,17.79
+4491,1,Forest,Annual average modified NCBI bedrock,Diversity,Logging,1977,1993,ref site,35.12,-83.34,-0.051293294,,,,63.22,-4.38,17.79
+4492,1,Forest,Annual average modified NCBI depositional,Diversity,Logging,1977,1993,ref site,35.12,-83.34,0,,,,63.22,-4.38,17.79
+4493,1,Forest,Annual average modified NCBI riffle,Diversity,Logging,1977,1993,ref site,35.12,-83.34,-0.225439764,,,,63.22,-4.38,17.79
+4494,1,Forest,Annual average percentage Baetis bedrock,Abundance,Logging,1977,1993,ref site,35.12,-83.34,,-0.094187215,,,63.22,-4.38,17.79
+4495,1,Forest,Annual average percentage Baetis depositional,Abundance,Logging,1977,1993,ref site,35.12,-83.34,,0,,,63.22,-4.38,17.79
+4496,1,Forest,Annual average percentage Baetis riffle,Abundance,Logging,1977,1993,ref site,35.12,-83.34,,-1.159606801,,,63.22,-4.38,17.79
+4497,1,Forest,Annual average shedder-scraper indices bedrock,Diversity,Logging,1977,1993,ref site,35.12,-83.34,-0.423269733,,,,63.22,-4.38,17.79
+4498,1,Forest,Annual average shedder-scraper indices depositional,Diversity,Logging,1977,1993,ref site,35.12,-83.34,-0.980995684,,,,63.22,-4.38,17.79
+4499,1,Forest,Annual average shedder-scraper indices riffle,Diversity,Logging,1977,1993,ref site,35.12,-83.34,-1.271432586,,,,63.22,-4.38,17.79
+4500,1,Forest,Collector (% of total EPT abundance) bedrock,Abundance,Logging,1977,1993,ref site,35.12,-83.34,,-0.318922708,,,63.22,-4.38,17.79
+4501,1,Forest,Collector (% of total EPT abundance) depositional,Abundance,Logging,1977,1993,ref site,35.12,-83.34,,-0.182740493,,,63.22,-4.38,17.79
+4502,1,Forest,Collector (% of total EPT abundance) riffle,Abundance,Logging,1977,1993,ref site,35.12,-83.34,,-0.177774946,,,63.22,-4.38,17.79
+4503,1,Forest,EPT taxon richness bedrock,Diversity,Logging,1977,1993,ref site,35.12,-83.34,-0.057158414,,,,63.22,-4.38,17.79
+4504,1,Forest,EPT taxon richness depositional,Diversity,Logging,1977,1993,ref site,35.12,-83.34,-0.128748983,,,,63.22,-4.38,17.79
+4505,1,Forest,EPT taxon richness riffle,Diversity,Logging,1977,1993,ref site,35.12,-83.34,-0.084083117,,,,63.22,-4.38,17.79
+4506,1,Forest,Filterer (% of total EPT abundance) bedrock,Abundance,Logging,1977,1993,ref site,35.12,-83.34,,-0.021053409,,,63.22,-4.38,17.79
+4507,1,Forest,Filterer (% of total EPT abundance) depositional,Abundance,Logging,1977,1993,ref site,35.12,-83.34,,-0.740586906,,,63.22,-4.38,17.79
+4508,1,Forest,Filterer (% of total EPT abundance) riffle,Abundance,Logging,1977,1993,ref site,35.12,-83.34,,-0.193594296,,,63.22,-4.38,17.79
+4521,1,Forest,Predator (% of total EPT abundance) bedrock,Abundance,Logging,1977,1993,ref site,35.12,-83.34,,-0.227267268,,,63.22,-4.38,17.79
+4522,1,Forest,Predator (% of total EPT abundance) depositional,Abundance,Logging,1977,1993,ref site,35.12,-83.34,,-0.588934865,,,63.22,-4.38,17.79
+4523,1,Forest,Predator (% of total EPT abundance) riffle,Abundance,Logging,1977,1993,ref site,35.12,-83.34,,-0.674884921,,,63.22,-4.38,17.79
+4524,1,Forest,Scraper (% of total EPT abundance) bedrock,Abundance,Logging,1977,1993,ref site,35.12,-83.34,,-0.095900324,,,63.22,-4.38,17.79
+4525,1,Forest,Scraper (% of total EPT abundance) depositional,Abundance,Logging,1977,1993,ref site,35.12,-83.34,,-0.427238908,,,63.22,-4.38,17.79
+4526,1,Forest,Scraper (% of total EPT abundance) riffle,Abundance,Logging,1977,1993,ref site,35.12,-83.34,,-0.017335908,,,63.22,-4.38,17.79
+4527,1,Forest,Shredder (% of total EPT abundance) bedrock,Abundance,Logging,1977,1993,ref site,35.12,-83.34,,-0.491693093,,,63.22,-4.38,17.79
+4528,1,Forest,Shredder (% of total EPT abundance) depositional,Abundance,Logging,1977,1993,ref site,35.12,-83.34,,-0.128201628,,,63.22,-4.38,17.79
+4529,1,Forest,Shredder (% of total EPT abundance) riffle,Abundance,Logging,1977,1993,ref site,35.12,-83.34,,-0.299199838,,,63.22,-4.38,17.79
+4530,1,Forest,Substratum median phi bedrock,Morphology,Logging,1977,1993,ref site,35.12,-83.34,,,,,63.22,-4.38,17.79
+4531,1,Forest,Substratum median phi depositional,Morphology,Logging,1977,1993,ref site,35.12,-83.34,,,,,63.22,-4.38,17.79
+4532,1,Forest,Substratum median phi riffle,Morphology,Logging,1977,1993,ref site,35.12,-83.34,,,,,63.22,-4.38,17.79
+4682,2,Forest,Average annual sediment yields (kg ha-1) clearcut Natchez Trace,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4683,2,Forest,Average annual sediment yields (kg ha-1) clearcut Pine Tree,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4684,2,Forest,Average annual sediment yields (kg ha-1) clearcut-seeded Natchez Trace,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4685,2,Forest,Average annual sediment yields (kg ha-1) clearcut-seeded Pine Tree,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4686,2,Forest,Average annual sediment yields (kg ha-1) stripcut Natchez Trace,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4687,2,Forest,Average annual sediment yields (kg ha-1) stripcut Pine Tree,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4688,2,Forest,Flow-weighted sediment concentrations (mgL-1) clearcut Natchez Trace,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4689,2,Forest,Flow-weighted sediment concentrations (mgL-1) clearcut Pine Tree,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4690,2,Forest,Flow-weighted sediment concentrations (mgL-1) clearcut-seeded Natchez Trace,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4691,2,Forest,Flow-weighted sediment concentrations (mgL-1) clearcut-seeded Pine Tree,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4692,2,Forest,Flow-weighted sediment concentrations (mgL-1) stripcut Natchez Trace,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4693,2,Forest,Flow-weighted sediment concentrations (mgL-1) stripcut Pine Tree,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4694,2,Forest,Forest floor weights (t ha-1) clearcut Natchez Trace,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4695,2,Forest,Forest floor weights (t ha-1) clearcut Pine Tree ,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4696,2,Forest,Forest floor weights (t ha-1) clearcut-seeded Natchez Trace,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4697,2,Forest,Forest floor weights (t ha-1) clearcut-seeded Pine Tree ,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4698,2,Forest,Forest floor weights (t ha-1) stripcut Natchez Trace,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4699,2,Forest,Forest floor weights (t ha-1) stripcut Pine Tree ,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4700,2,Forest,Soil bulk density (g cm-3) clearcut Natchez Trace,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4701,2,Forest,Soil bulk density (g cm-3) clearcut Pine Tree,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4702,2,Forest,Soil bulk density (g cm-3) clearcut-seeded Natchez Trace,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4703,2,Forest,Soil bulk density (g cm-3) clearcut-seeded Pine Tree,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4704,2,Forest,Soil bulk density (g cm-3) stripcut Natchez Trace,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+4705,2,Forest,Soil bulk density (g cm-3) stripcut Pine Tree,Water characteristic,Logging,1977,1980,ref site,35.72,-88.23,,,,,28.26,7.87,7.73
+1868,3,Forest,Annual decomposition rates of A. rubrum,Carbon,Logging,1978,1998,ref site,35.03,-83.25,,,,,123.98,-1.69,72.39
+1869,3,Forest,Annual decomposition rates of C. florida,Carbon,Logging,1978,1998,ref site,35.03,-83.25,,,,,123.98,-1.69,72.39
+1870,3,Forest,Annual decomposition rates of Q. prinus,Carbon,Logging,1978,1998,ref site,35.03,-83.25,,,,,123.98,-1.69,72.39
+4566,4,Forest,Ca (mceq L-1),Nutrient,Logging,1978,1996,ref site,35.03,-83.25,,,-0.634396497,,123.98,-2.35,64.38
+4567,4,Forest,Cumulative sediment (metric tons),Water characteristic,Logging,1978,1990,pre-disturbance data,35.03,-83.25,,,,,123.98,-10.60,64.38
+4568,4,Forest,K (mceq L-1),Nutrient,Logging,1978,1996,ref site,35.03,-83.25,,,-0.089070262,,123.98,-2.35,64.38
+4569,4,Forest,NO3 (mceq L-1),Nitrogen,Logging,1978,1996,ref site,35.03,-83.25,,,,-2.459264219,123.98,-2.35,64.38
+4570,4,Forest,Streamflow deviations from regression (cm),Morphology,Logging,1978,1997,pre-disturbance data,35.03,-83.25,,,,,123.98,-1.70,64.38
+946,5,Grassland,Litter %N high deposition plot,Nitrogen,Eutrophication,1982,2004,ref site,45.4,-93.2,,,,-0.274888721,16.56,4.05,-20.21
+947,5,Grassland,Litter biomass g/m2 high deposition plot,Organic matter,Eutrophication,1982,2004,ref site,45.4,-93.2,,,,,16.56,4.05,-20.21
+948,5,Grassland,Litter total N mg/m2 high deposition plot,Nitrogen,Eutrophication,1982,2004,ref site,45.4,-93.2,,,,-0.319070292,16.56,4.05,-20.21
+949,5,Grassland,Root %N high deposition plot,Abundance,Eutrophication,1982,2004,ref site,45.4,-93.2,,-0.24613307,,,16.56,4.05,-20.21
+950,5,Grassland,Root biomass g/m2 high deposition plot,Abundance,Eutrophication,1982,2004,ref site,45.4,-93.2,,-0.270274559,,,16.56,4.05,-20.21
+951,5,Grassland,Root total N mg/m2 high deposition plot,Abundance,Eutrophication,1982,2004,ref site,45.4,-93.2,,-0.051460925,,,16.56,4.05,-20.21
+952,5,Grassland,Shoots %N high deposition plot,Abundance,Eutrophication,1982,2004,ref site,45.4,-93.2,,-0.027856955,,,16.56,4.05,-20.21
+953,5,Grassland,Shoots biomass g/m2 high deposition plot,Abundance,Eutrophication,1982,2004,ref site,45.4,-93.2,,-0.625925227,,,16.56,4.05,-20.21
+954,5,Grassland,Shoots total N mg/m2 high deposition plot,Abundance,Eutrophication,1982,2004,ref site,45.4,-93.2,,-0.474622575,,,16.56,4.05,-20.21
+955,5,Grassland,Soil N% high deposition plot,Nitrogen,Eutrophication,1982,2004,ref site,45.4,-93.2,,,,-0.15267684,16.56,4.05,-20.21
+956,5,Grassland,Soil net N mineralization rate g/m2/y,Nitrogen,Eutrophication,1982,2004,ref site,45.4,-93.2,,,,-0.566216472,16.56,4.05,-20.21
+957,5,Grassland,Soil NH4 mg/kg 0-30cm layer high deposition plot,Nitrogen,Eutrophication,1982,2004,ref site,45.4,-93.2,,,,-1.011600912,16.56,4.05,-20.21
+958,5,Grassland,Soil NH4 mg/kg 60-90cm layer high deposition plot,Nitrogen,Eutrophication,1982,2004,ref site,45.4,-93.2,,,,-0.84729786,16.56,4.05,-20.21
+959,5,Grassland,Soil NO3 mg/kg 0-30cm layer high deposition plot,Nitrogen,Eutrophication,1982,2004,ref site,45.4,-93.2,,,,-0.693147181,16.56,4.05,-20.21
+960,5,Grassland,Soil NO3 mg/kg 60-90cm layer high deposition plot,Nitrogen,Eutrophication,1982,2004,ref site,45.4,-93.2,,,,-0.84729786,16.56,4.05,-20.21
+961,5,Grassland,Soil TN mg/m2,Nitrogen,Eutrophication,1982,2004,ref site,45.4,-93.2,,,,-0.11326279,16.56,4.05,-20.21
+962,5,Grassland,Total plant biomass %N,Nitrogen,Eutrophication,1982,2004,ref site,45.4,-93.2,,,,-0.195308752,16.56,4.05,-20.21
+963,5,Grassland,Total plant biomass g/m2,Abundance,Eutrophication,1982,2004,ref site,45.4,-93.2,,-0.026506038,,,16.56,4.05,-20.21
+964,5,Grassland,Total plant biomassTN g/m2,Nitrogen,Eutrophication,1982,2004,ref site,45.4,-93.2,,,,-0.133916438,16.56,4.05,-20.21
+4509,6,Forest,Fine particulate organic matter (% of organic matter) bedrock,Organic matter,Logging,1982,1993,ref site,35.12,-83.34,,,,,63.22,-6.00,17.79
+4510,6,Forest,Fine particulate organic matter (% of organic matter) depositional,Organic matter,Logging,1982,1993,ref site,35.12,-83.34,,,,,63.22,-6.00,17.79
+4511,6,Forest,Fine particulate organic matter (% of organic matter) riffle,Organic matter,Logging,1982,1993,ref site,35.12,-83.34,,,,,63.22,-6.00,17.79
+4512,6,Forest,Leaves (% of organic matter) bedrock,Organic matter,Logging,1982,1993,ref site,35.12,-83.34,,,,,63.22,-6.00,17.79
+4513,6,Forest,Leaves (% of organic matter) depositional,Organic matter,Logging,1982,1993,ref site,35.12,-83.34,,,,,63.22,-6.00,17.79
+4514,6,Forest,Leaves (% of organic matter) riffle,Organic matter,Logging,1982,1993,ref site,35.12,-83.34,,,,,63.22,-6.00,17.79
+4515,6,Forest,Misc coarse particulate organic matter  (% of organic matter) bedrock,Organic matter,Logging,1982,1993,ref site,35.12,-83.34,,,,,63.22,-6.00,17.79
+4516,6,Forest,Misc coarse particulate organic matter (% of organic matter) depositional,Organic matter,Logging,1982,1993,ref site,35.12,-83.34,,,,,63.22,-6.00,17.79
+4517,6,Forest,Misc coarse particulate organic matter (% of organic matter) riffle,Organic matter,Logging,1982,1993,ref site,35.12,-83.34,,,,,63.22,-6.00,17.79
+4518,6,Forest,Moss (% of organic matter) bedrock,Organic matter,Logging,1982,1993,ref site,35.12,-83.34,,,,,63.22,-6.00,17.79
+4519,6,Forest,Moss (% of organic matter) depositional,Organic matter,Logging,1982,1993,ref site,35.12,-83.34,,,,,63.22,-6.00,17.79
+4520,6,Forest,Moss (% of organic matter) riffle,Organic matter,Logging,1982,1993,ref site,35.12,-83.34,,,,,63.22,-6.00,17.79
+4533,6,Forest,Wood (% of organic matter) bedrock,Organic matter,Logging,1982,1993,ref site,35.12,-83.34,,,,,63.22,-6.00,17.79
+4534,6,Forest,Wood (% of organic matter) depositional,Organic matter,Logging,1982,1993,ref site,35.12,-83.34,,,,,63.22,-6.00,17.79
+4535,6,Forest,Wood (% of organic matter) riffle,Organic matter,Logging,1982,1993,ref site,35.12,-83.34,,,,,63.22,-6.00,17.79
+5263,7,Forest,Ca in streamwater kg/ha yr ,Nutrient,Logging,1984,1987,ref site,43.56,-71.45,,,-0.422856851,,47.78,-1.30,29.44
+5264,7,Forest,K in streamwater kg/ha yr ,Nutrient,Logging,1984,1987,ref site,43.56,-71.45,,,-0.887303195,,47.78,-1.30,29.44
+5265,7,Forest,Mass of particulate matter (kg/ha) ,Water characteristic,Logging,1984,1986,ref site,43.56,-71.45,,,,,47.78,-1.30,29.44
+5266,7,Forest,N(NH4) in stream water kg/ha yr,Nitrogen,Logging,1984,1987,ref site,43.56,-71.45,,,,0,47.78,-1.30,29.44
+5267,7,Forest,N(NO3) in streamwater kg/ha yr ,Nitrogen,Logging,1984,1987,ref site,43.56,-71.45,,,,-1.15923691,47.78,-1.30,29.44
+5268,7,Forest,P export in particulate matter (kg/ha),Phosphorus,Logging,1984,1986,ref site,43.56,-71.45,,,,,47.78,-1.30,29.44
+5269,7,Forest,P in streamwater kg/ha yr,Phosphorus,Logging,1984,1987,ref site,43.56,-71.45,,,,,47.78,-1.30,29.44
+5270,7,Forest,Water flux (mm),Water characteristic,Logging,1984,1987,ref site,43.56,-71.45,,,,,47.78,-1.30,29.44
+1911,8,Forest,Number of native-colonizing herb species,Diversity,Mining,1992,1999,ref site,36.6,-78.61,-0.075530019,,,,5.55,7.85,-0.19
+1912,8,Forest,Number of native-colonizing shrub and tree species,Diversity,Mining,1992,1999,ref site,36.6,-78.61,-0.514231157,,,,5.55,7.85,-0.19
+1913,8,Forest,Number of non-native colonizing herb species,Diversity,Mining,1992,1999,ref site,36.6,-78.61,-0.658141571,,,,5.55,7.85,-0.19
+1914,8,Forest,Number of planted herb species,Diversity,Mining,1992,1999,ref site,36.6,-78.61,-0.263574997,,,,5.55,7.85,-0.19
+1915,8,Forest,Number of planted shrub and tree species,Diversity,Mining,1992,1999,ref site,36.6,-78.61,-0.238384101,,,,5.55,7.85,-0.19
+1916,8,Forest,Percentage herb cover,Abundance,Mining,1992,1999,ref site,36.6,-78.61,,-0.548888483,,,5.55,7.85,-0.19
+1917,8,Forest,Percentage shrub cover,Abundance,Mining,1992,1999,ref site,36.6,-78.61,,-0.177100539,,,5.55,7.85,-0.19
+1918,8,Forest,Tree basal area,Abundance,Mining,1992,1999,ref site,36.6,-78.61,,-0.279608569,,,5.55,7.85,-0.19
+551,9,Forest,Changes in richness of native species clearcut,Diversity,Logging,1997,2005,pre-disturbance data,37.49,-80.19,-0.435982782,,,,25.13,4.02,5.52
+552,9,Forest,Changes in richness of native species herbicide,Diversity,Logging,1997,2005,pre-disturbance data,37.49,-80.19,-0.273151239,,,,25.13,4.02,5.52
+553,9,Forest,Changes in richness of native species leave-tree,Diversity,Logging,1997,2005,pre-disturbance data,37.49,-80.19,-0.478492996,,,,25.13,4.02,5.52
+554,9,Forest,Changes in richness of native species shelterwood,Diversity,Logging,1997,2005,pre-disturbance data,37.49,-80.19,-0.304139912,,,,25.13,4.02,5.52
+555,9,Forest,Changes in richness of nonnative species clearcut,Diversity,Logging,1997,2005,pre-disturbance data,37.49,-80.19,-1.72531437,,,,25.13,4.02,5.52
+556,9,Forest,Changes in richness of nonnative species herbicide,Diversity,Logging,1997,2005,pre-disturbance data,37.49,-80.19,-0.287682072,,,,25.13,4.02,5.52
+557,9,Forest,Changes in richness of nonnative species leave-tree,Diversity,Logging,1997,2005,pre-disturbance data,37.49,-80.19,-1.84582669,,,,25.13,4.02,5.52
+558,9,Forest,Changes in richness of nonnative species shelterwood,Diversity,Logging,1997,2005,pre-disturbance data,37.49,-80.19,-1.791759469,,,,25.13,4.02,5.52
+559,9,Forest,Contribution of ferns to total richness of colonizers clearcut,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-0.411734721,,,,25.13,4.02,5.52
+560,9,Forest,Contribution of ferns to total richness of colonizers leave-tree,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-0.949689012,,,,25.13,4.02,5.52
+561,9,Forest,Contribution of forbs to total richness of colonizers clearcut,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-0.540765088,,,,25.13,4.02,5.52
+562,9,Forest,Contribution of forbs to total richness of colonizers herbicide,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-0.161129075,,,,25.13,4.02,5.52
+563,9,Forest,Contribution of forbs to total richness of colonizers leave-tree,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-0.478950415,,,,25.13,4.02,5.52
+564,9,Forest,Contribution of forbs to total richness of colonizers shelterwood,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-0.093526058,,,,25.13,4.02,5.52
+565,9,Forest,Contribution of graminoids to total richness of colonizers clearcut,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-1.169640125,,,,25.13,4.02,5.52
+566,9,Forest,Contribution of graminoids to total richness of colonizers herbicide,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-0.648411287,,,,25.13,4.02,5.52
+567,9,Forest,Contribution of graminoids to total richness of colonizers leave-tree,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-0.345361184,,,,25.13,4.02,5.52
+568,9,Forest,Contribution of graminoids to total richness of colonizers shelterwood,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-0.199533686,,,,25.13,4.02,5.52
+569,9,Forest,Contribution of shrubs to total richness of colonizers clearcut,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-0.054067221,,,,25.13,4.02,5.52
+570,9,Forest,Contribution of shrubs to total richness of colonizers herbicide,Diversity,Logging,1997,2005,ref site,37.49,-80.19,0,,,,25.13,4.02,5.52
+571,9,Forest,Contribution of shrubs to total richness of colonizers leave-tree,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-0.410742165,,,,25.13,4.02,5.52
+572,9,Forest,Contribution of shrubs to total richness of colonizers shelterwood,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-0.054067221,,,,25.13,4.02,5.52
+573,9,Forest,Contribution of trees to total richness of colonizers clearcut,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-0.441832752,,,,25.13,4.02,5.52
+574,9,Forest,Contribution of trees to total richness of colonizers herbicide,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-0.55324634,,,,25.13,4.02,5.52
+575,9,Forest,Contribution of trees to total richness of colonizers leave-tree,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-0.251314428,,,,25.13,4.02,5.52
+576,9,Forest,Contribution of trees to total richness of colonizers shelterwood,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-0.039665256,,,,25.13,4.02,5.52
+577,9,Forest,Contribution of vines to total richness of colonizers clearcut,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-0.411734721,,,,25.13,4.02,5.52
+578,9,Forest,Contribution of vines to total richness of colonizers herbicide,Diversity,Logging,1997,2005,ref site,37.49,-80.19,0,,,,25.13,4.02,5.52
+579,9,Forest,Contribution of vines to total richness of colonizers leave-tree,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-0.150572858,,,,25.13,4.02,5.52
+580,9,Forest,Contribution of vines to total richness of colonizers shelterwood,Diversity,Logging,1997,2005,ref site,37.49,-80.19,-0.177334015,,,,25.13,4.02,5.52
+581,9,Forest,Sorensen dissimilarity (clearcut),Community characteristic,Logging,1997,2005,ref site,37.49,-80.19,,,,,25.13,4.02,5.52
+582,9,Forest,Sorensen dissimilarity (herbiside),Community characteristic,Logging,1997,2005,ref site,37.49,-80.19,,,,,25.13,4.02,5.52
+583,9,Forest,Sorensen dissimilarity (leave-tree),Community characteristic,Logging,1997,2005,ref site,37.49,-80.19,,,,,25.13,4.02,5.52
+584,9,Forest,Changes in richness of native species clearcut,Diversity,Logging,1997,2005,pre-disturbance data,37.49,-80.19,-0.066996601,,,,25.13,4.02,5.52
+4536,10,Grassland,fertilized % colonizer-persister group 1 of total nematodes,Abundance,Oil,1999,2003,ref site,36.8,-96.84,,-2.054123734,,,-22,-1.35,-50.33
+4537,10,Grassland,fertilized % colonizer-persister group 2 of total nematodes,Abundance,Oil,1999,2003,ref site,36.8,-96.84,,-1.716536048,,,-22,-1.35,-50.33
+4538,10,Grassland,fertilized % colonizer-persister group 3-5 of total nematodes,Abundance,Oil,1999,2003,ref site,36.8,-96.84,,-0.906721281,,,-22,-1.35,-50.33
+4539,10,Grassland,fertilized N mineralization rates (mg N/kg dry soil/d),Nitrogen,Oil,1999,2003,ref site,36.8,-96.84,,,,-1.133098465,-22,-1.35,-50.33
+4540,10,Grassland,fertilized Nematode fungivore trophic diversity (number/100g of soil),Diversity,Oil,1999,2003,ref site,36.8,-96.84,-2.672768387,,,,-22,-1.35,-50.33
+4541,10,Grassland,fertilized Nematode herbivore trophic diversity (number/100g of soil),Diversity,Oil,1999,2003,ref site,36.8,-96.84,-3.985403896,,,,-22,-1.35,-50.33
+4542,10,Grassland,fertilized Nematode maturity index,Community characteristic,Oil,1999,2003,ref site,36.8,-96.84,,,,,-22,-1.35,-50.33
+4543,10,Grassland,fertilized Nematode microvore trophic diversity (number/100g of soil),Diversity,Oil,1999,2003,ref site,36.8,-96.84,-0.613104473,,,,-22,-1.35,-50.33
+4544,10,Grassland,fertilized Nitrate - N concentration (mg/kg dry soil),Nitrogen,Oil,1999,2003,ref site,36.8,-96.84,,,,,-22,-1.35,-50.33
+4545,10,Grassland,fertilized Phospholipids fatty acids (pmol/g dry wt.),Soil characteristic,Oil,1999,2003,ref site,36.8,-96.84,,,,,-22,-1.35,-50.33
+4546,10,Grassland,fertilized Soil C:N,Nutrient,Oil,1999,2003,ref site,36.8,-96.84,,,-0.023770219,,-22,-1.35,-50.33
+4547,10,Grassland,fertilized Total nematodes (number/100g of soil),Abundance,Oil,1999,2003,ref site,36.8,-96.84,,-1.128988456,,,-22,-1.35,-50.33
+4548,10,Grassland,not fertilized % colonizer-persister group 1 of total nematodes,Abundance,Oil,1999,2003,ref site,36.8,-96.84,,-1.019831411,,,-22,-1.35,-50.33
+4549,10,Grassland,not fertilized % colonizer-persister group 2 of total nematodes,Abundance,Oil,1999,2003,ref site,36.8,-96.84,,-2.146580845,,,-22,-1.35,-50.33
+4550,10,Grassland,not fertilized % colonizer-persister group 3-5 of total nematodes,Abundance,Oil,1999,2003,ref site,36.8,-96.84,,-1.963609726,,,-22,-1.35,-50.33
+4551,10,Grassland,not fertilized N mineralization rates (mg N/kg dry soil/d),Nitrogen,Oil,1999,2003,ref site,36.8,-96.84,,,,-1.057790294,-22,-1.35,-50.33
+4552,10,Grassland,not fertilized Nematode fungivore trophic diversity (number/100g of soil),Diversity,Oil,1999,2003,ref site,36.8,-96.84,-2.212842717,,,,-22,-1.35,-50.33
+4553,10,Grassland,not fertilized Nematode herbivore trophic diversity (number/100g of soil),Diversity,Oil,1999,2003,ref site,36.8,-96.84,-4.81866736,,,,-22,-1.35,-50.33
+4554,10,Grassland,not fertilized Nematode maturity index,Community characteristic,Oil,1999,2003,ref site,36.8,-96.84,,,,,-22,-1.35,-50.33
+4555,10,Grassland,not fertilized Nematode microvore trophic diversity (number/100g of soil),Diversity,Oil,1999,2003,ref site,36.8,-96.84,-1.350484908,,,,-22,-1.35,-50.33
+4556,10,Grassland,not fertilized Nitrate - N concentration (mg/kg dry soil),Nitrogen,Oil,1999,2003,ref site,36.8,-96.84,,,,-1.783494959,-22,-1.35,-50.33
+4557,10,Grassland,not fertilized Phospholipids fatty acids (pmol/g dry wt.),Soil characteristic,Oil,1999,2003,ref site,36.8,-96.84,,,,,-22,-1.35,-50.33
+4558,10,Grassland,not fertilized Soil C:N,Nutrient,Oil,1999,2003,ref site,36.8,-96.84,,,-0.095635966,,-22,-1.35,-50.33
+4559,10,Grassland,not fertilized Total nematodes (number/100g of soil),Abundance,Oil,1999,2003,ref site,36.8,-96.84,,-0.194529665,,,-22,-1.35,-50.33
