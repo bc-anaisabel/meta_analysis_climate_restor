@@ -88,12 +88,12 @@ During data exploration I detected the project will need to incorporate more stu
 The dataset is divided into 2 database tables:
 
 1. The original [database](data/Clim_dev_test.csv) containing all restoration metrics and study information
-2. The database containing the study, metric of restoration, recovery completeness and values for the three approaches to estimate climate associations
+2. The database containing the study, metric of restoration, recovery completeness and values for the three climate approaches 
 
 - Experimental units: each ecosystem aspect that was evaluated in restoration is an experimental unit, but this is nested within the study where it comes from, i.e. observations are not independent. 
 
 
-This is how the second [database table](data/DEV3.csv) looks like where the climate variables (predictor variables) are continuous: 
+This is how the second [database table](data/Data_2_for_github.csv) looks like, the climate variables (predictor variables) are continuous: 
 
 *Table1. Database table of studies and climate variables*
 <p align="left">
