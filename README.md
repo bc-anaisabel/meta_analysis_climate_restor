@@ -34,9 +34,9 @@ To address this, there have been proposals to for assessing the previous climati
 
 - Establish restoration success (response ratio of recovery completeness) for studies from 2013-2020 in North America - (*identified from data exploration*)
 
-- Determine if there are climatic variables that affect the recovery trajectory of a restored ecosystem more than others
+- Identify if there is an association between general dryness and restoration success and which factors participate in the direction and strenght of the relationship (e.g. ecosystem type, latitude, restoration period, recovery metric) 
 
-- Identify if there is relationship between climate deviation and restoration success and which factors participate in the direction and strenght of the relationship (e.g. ecosystem type, latitude, restoration period, recovery metric) 
+- Analyze and consider climate trends and extreme events for the restoration sites
 
 
 ### Expected results
@@ -104,25 +104,26 @@ Where each observation is a row and columns are the climate deviation values (th
   <img src="output/Table_data_variables.png" width="500"> 
 </p>
 
-### Exploration of observations grouping by study and using latitude as identifiers ###
-
-Data were first scaled because of the unit differences across climate variables. Vectors use deviation values for climate variables for the different studies, testing if latitude is related to the variation in climate deviation across different climate variables. The script I used to do this can be found [here](bin/EXPLORING_DEVIATION_DATA.R)
-
-<p align="left">
-  <img src="output/NMDS_Latitude_Euclidean_sqrt.png" width="500"> 
-</p>
-Figure 3.  NMDS using an euclidean distance matrix
+### Exploration of observations ###
 
 
-## 4. Results and Discussion (*in progress*)
+
+## 4. Results and Discussion
+
+Explain: what contributes the most to success or failure? Baseline normal conditions, climate trends, extreme events, or non-climatic factors?
+
+
+## 5. Conclusions, About, References (*in progress*)
+
+Increase the number of studies and expand to global assessments to be able to evaluate the role of location
+
+Determine if there are other climatic variables that may be useful and have an association to the recovery trajectory of a restored ecosystem
 
 This meta-analysis eventually will move from North America to incorporate restoration studies from around the globe. I am still unsure on which climate database to use to obtain my global values. 
 
 I think the most important analysis for climate deviation will be the one looking at the extreme climatic values or greatest difference. But I need to adjust for the duration of the study if I use this metric to estimate climate deviation. 
 
 Following data exploration when more datapoints have been added, I will explore the relationship between the first and the second dataset by using classification and regression tree analysis. 
-
-## 5. Conclusions, About, References (*in progress*)
 
 ### References ###
 [1] Hobbs, R. J., & Norton, D. A. (1996). Towards a conceptual framework for restoration ecology. Restoration ecology, 4(2), 93-110 
