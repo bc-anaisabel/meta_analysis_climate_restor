@@ -1,6 +1,6 @@
 # Can climate anomalies and trends predict the restoration trajectory of terrestrial ecosystems? 
 
-In this study I am analyzing if there is a relationship between **climate trends** and **climate anomalies** and the success of **restoration** in terrestrial ecosystems.  If climatic conditions have deviated from the climate normal values during which the restoration goals were established, the conditions for successful restoration might not exist in the same way as before. To do so I am performing a meta-analysis with terrestrial restoration studies in North America. Using climate moisture index during the 1961-1990 period as a reference pre-climate change, I calculated the average value during the restoration and the greatest anomaly. Then I checked the associations of general dryness, climate trends, and extreme events with restoration success separately for each restoration metric. I found
+In this study I am analyzing if there is a relationship between **climate trends** and **climate anomalies** and the success of **restoration** in terrestrial ecosystems.  If climatic conditions have deviated from the climate normal values during which the restoration goals were established, the conditions for successful restoration might not exist in the same way as before. To do so I am performing a meta-analysis with terrestrial restoration studies in North America. Using recovery completeness and climate moisture index, I checked the associations of general dryness, climate trends and extreme events with restoration success separately for each restoration metric. I found there is a trend towards possitive associations between decreasing dryness and biodiversity metrics of recovery. However the associations become less clear when evaluating soil characteristics including nitrogen and phosphorus content, likely there is a latitude component that helps explain this variation. Lastly I found that extreme drought events are more strongly with less recovery in forests and grasslands. 
 
 Consideration of recent changes in climatic conditions when developing management plans and establishing restoration targets could help identify restoration priorities (Figure1). Sites where the climatic conditions have deviated from normal values could either adjust their targets or active restoration efforts could be better directed to less altered ecosystems. 
 
@@ -45,11 +45,12 @@ Increasing climate deviation from climate normal values in a site will have a ne
 
 ## 2. Methods 
 
-In the early stages of this project I am exploring three different climate deviation estimations:
+I explored three different of using climate to test the association between recovery completeness and drought: 
 
-1. **AVERAGE**: Obtain the average value across restoration period and subtract from this the corresponding climate normal value for each climate variable
-2. **GREATEST DIFFERENCE**: Choose the value that deviated the most from the climate normal value across the restoration period and subtract from this the corresponding climate normal value for each climate variable (*In progress: to be calculated and added to this site*)
-3. **LAST RESTORATION YEAR**: Choose the values for the last year during which restoration took place and subtract from this the corresponding climate normal value for each climate variable 
+1. **CMI NORMAL 1961-1990**: Obtain the average CMI for the climate normal period of 1961-1990. This reflects 
+2. **CMI restoration period**: Obtain the average CMI value for the duration of the restoration period for each observation and obtain the difference compared to the CMI normal 1961-1990. This corresponds to longer term trends
+3. **CMI extreme**: Choose the largest negative CMI anomaly during the restoration period, i.e. the most severe drought extreme event and subtract from this the corresponding climate normal value for each climate variable (*In progress: to be calculated and added to this site*) your largest negative annual CMI anomaly during the restoration period, representing the most severe drought extreme event.
+
 
 
 
@@ -64,20 +65,29 @@ Figure 3. Intended project pipeline
 
 Obtaining climate values: Since the period when each restoration varied in duration and start year,  climate normals and historical time series for annual climate variables were designated on a study by study basis. That is, according to the year when the restoration started, the closest climate normal period was chosen for each study. For the historical time series, a period encompassing the first year to the last year of restoration was selected for each study. 
 
+##
+
+During data exploration I detected the project will need to incorporate more studies within North America at this stage. After filtering for the required parameters, the sample size was greatly reduced (**n=10**). Although restoration observations are considerable for a thorough comparison, the climate values associated to each observation are dependent on the location of the study, which remains unchanged across all observations coming from the same study. So, **observations are nested within study**. Since this is a meta-analysis in the search for patterns, I need as many datapoints as possible to be able to compare across latitudes and ecosystem types within the North America region. Following steps then are: 
+
+1. Incorporate terrestrial restoration studies in North America from 2013-2020 to the original database
+2. Calculate response ratios of recovery completeness for new studies
+3. Data exploration with increased database
+4. Statistical analysis: establishing associations between climate deviation dataset and recovery completeness dataset 
+
+
 
 ## 3. Data 
 
-The central goal of this study is to measure the relationship between deviation of climatic variables (*predictor variable*) and recovery completeness (*response variable*) by doing a meta-analysis. For this end there will be 2 datasets that will be combined in the final analysis: 
+There are 2 datasets: 
 
 1. The original [datatable](data/Clim_dev_test.csv) containing all restoration metrics and study information
-2. The [datatable](data/DEV3.csv) (one per climate deviation calculation method) containing all climate deviation values
+2. The datatable containing the study, metric of restoration, recovery completeness and values for the three approaches to estimate climate associations
 
 - Experimental units: each ecosystem aspect that was evaluated in restoration is an experimental unit, but this is nested within the study where it comes from, i.e. observations are not independent. 
 
-During this stage I am doing data exploration of the second dataset by:
+- Predictor variable and response variable: 
 
-1. Calculating the deviation for each climate variable with the 3 different methods and assessing the uselfulness of each
-2. Establishing the climate variables that will be most useful
+
 
 This is how the second [dataset](data/DEV3.csv) looks like where the climate variables (predictor variables) are continuous: 
 
@@ -103,16 +113,6 @@ Data were first scaled because of the unit differences across climate variables.
 </p>
 Figure 3.  NMDS using an euclidean distance matrix
 
-
-
-##
-
-During data exploration I detected the project will need to incorporate more studies within North America at this stage. After filtering for the required parameters, the sample size was greatly reduced (**n=10**). Although restoration observations are considerable for a thorough comparison, the climate values associated to each observation are dependent on the location of the study, which remains unchanged across all observations coming from the same study. So, **observations are nested within study**. Since this is a meta-analysis in the search for patterns, I need as many datapoints as possible to be able to compare across latitudes and ecosystem types within the North America region. Following steps then are: 
-
-1. Incorporate terrestrial restoration studies in North America from 2013-2020 to the original database
-2. Calculate response ratios of recovery completeness for new studies
-3. Data exploration with increased database
-4. Statistical analysis: establishing associations between climate deviation dataset and recovery completeness dataset 
 
 ## 4. Results and Discussion (*in progress*)
 
