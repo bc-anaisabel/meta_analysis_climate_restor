@@ -1,6 +1,6 @@
 # Can climate anomalies and trends predict the restoration trajectory of terrestrial ecosystems? 
 
-In this study I am analyzing if there is an association between **climate trends** and **anomalies** and the success of **restoration** in terrestrial ecosystems.  If climatic conditions have deviated from the historical normal values considered when the restoration goals were established, the conditions for what was considered successful restoration might not exist anymore. To test if this is the case I am performing a meta-analysis with terrestrial restoration studies in North America. Using recovery completeness and climate moisture index, I checked the associations of general dryness, climate trends and extreme events with restoration success separately for each restoration metric. I found there is a trend towards possitive associations between decreasing dryness and biodiversity metrics of recovery. However the associations become less clear when evaluating soil aspects including nitrogen and soil nutrients, likely there are other factors like latitude and broader nutrient cycling processes that help explain this variation. Lastly I found that extreme drought events are more strongly associated with less recovery in forests and grasslands. Consideration of climate change and extreme events when  could help identify restoration priorities (Figure1), set achievable and cost-effective goals and increase the succes of restoration projects. 
+In this study I am analyzing if there is an association between **climate trends** and **anomalies** and the success of **restoration** in terrestrial ecosystems.  If climatic conditions have deviated from the historical normal values considered when the restoration goals were established, the conditions for what was considered successful restoration might not exist anymore. To test if this is the case I am performing a meta-analysis with terrestrial restoration studies in North America. Using recovery completeness and climate moisture index, I checked the associations of general dryness, climate trends and extreme events with restoration success separately for each recovery metric. I found there is a trend towards possitive associations between decreasing dryness and biodiversity metrics of recovery. However the associations become less clear when evaluating soil aspects including nitrogen and soil nutrients, likely there are other factors like latitude and broader nutrient cycling processes that help explain this variation but this needs further exploration. Lastly I found that extreme drought events are more strongly associated with less recovery in forests and grasslands. Consideration of climate change and extreme event could help identify restoration priorities (Figure1), set achievable and cost-effective goals and increase the succes of restoration projects. 
 
 <p align="center">
   <img src="output/Standards_Restorative_Contin.png" width="600"> 
@@ -18,9 +18,9 @@ In this repository you can find:
 
 Ecological restoration intends to re-establish, improve or create ecosystem functions or characteristics previous to a disturbance. The recovery of an ecosystem following restoration then is measured against extant reference ecosystems or pre-disturbance conditions in the same ecosystem [1]. Climate is intrinsically implicated in restoration because it influences current ecosystem processes and attributes, affecting the ecological path an ecosystem follows following restoration activities[2]; and because climate varies in time it can affect restoration goals and/or metrics that are based in past climate conditions. Moreover, current climatic conditions in certain regions are rapidly changing, and extreme climatic events have been more frequent across the globe [3,4]. Hence, if restoration and ecosystem management plans do not consider changes in climate, they may fall out of context and become impractical when faced with current and future changes brought by climate extremes and other associated disturbances [2,5].  
 
-A meta-analysis study on the recovery of restored ecosystems following disturbances found that although ecosystems progress towards restoration, usually a complete recovery is never reached [6]. But importantly, the authors also found that the degree and rate of recovery was variable depending on factors like ecosystem type and the recovery metrics used to measure restoration success. Monitoring the outcomes of restoration actions against the restoration targets is necessary and although restoration projects have been increasingly performing an evaluation [7], this is usually done on an individual-project basis, hence knowledge on patterns of recovery across different ecosystems globally is still reduced [6,8]. 
+A meta-analysis study on the success of restored ecosystems following disturbances found that although ecosystems progress towards restoration, usually a complete recovery is never reached [6]. But importantly, the authors also found that the degree and rate of recovery was variable depending on factors like ecosystem type and the recovery metrics used to measure restoration success. Monitoring the outcomes of restoration actions against the restoration targets is necessary and although restoration projects have been increasingly performing an evaluation [7], this is usually done on an individual-project basis, hence knowledge on patterns of recovery across different ecosystems globally is still reduced [6,8]. 
 
-To address this, there have been proposals to for assessing the previous climatic conditions in the site that is to be restored. Some of these have involved the use of climate normals as reasonable time period to compare [2,4,9,10]. If climatic variables in a disturbed ecosystem have deviated considerably compared to its climate normal values, the conditions for restoration might not exist in the same way as before. Thus, by assessing the recovery of past restoration sites based on the restoration metric used in the meta-analysis by Jones and collaborators [6], and incorporating the climate values to assess climate trends, I intend to test if this could be a tool used in management plans and help setting restoration goals. If I find associations of restoration failure with observed climate change trends and climate anomalies, then this would be evidence that restoration ecology should shift away from aiming to reestablish what was there before, and instead target functions and conditions that adapt better to new and anticipated climates. 
+To address this, there have been proposals to assess the previous climatic conditions in the site that is to be restored. Some of these have involved the use of historical normal climate values as reasonable time period to compare to a pre-climate change condition [2,4,9,10]. If climatic variables in a disturbed ecosystem have deviated considerably compared to its historical normal values, the conditions for restoration might not exist in the same way as before. Thus, by assessing the extent of recovery of past restoration sites based on the recovery completeness metric used in the meta-analysis by Jones and collaborators [6], and incorporating the climate values to assess climate trends, I intend to test if this could be a tool used in management plans and help setting restoration goals. If I find associations of restoration failure with observed climate change trends and climate anomalies, then this would be evidence that restoration ecology should shift away from aiming to reestablish what was there before, and instead target functions and conditions that adapt better to new and anticipated climates. 
 
 <p align="center">
   <img src="output/intro.png" width="600"> 
@@ -30,26 +30,39 @@ To address this, there have been proposals to for assessing the previous climati
 ### Research objectives
 
 
-- Establish restoration success (response ratio of recovery completeness) for studies from 2013-2020 in North America - (*identified from data exploration*)
-
 - Identify if there is an association between general dryness and restoration success and which factors participate in the direction and strenght of the relationship (e.g. ecosystem type, latitude, restoration period, recovery metric) 
 
-- Analyze and consider climate trends and extreme events for the restoration sites
+- Analyze and consider climate trends and extreme events in association to the restoration success/failure 
+
+- Establish restoration success (response ratio of recovery completeness) for studies from 2013-2020 in North America - (*identified from data exploration*)
 
 
 ### Expected results
 
-Increasing climate deviation from climate normal values in a site will have a negative relationship with restoration succes. This will be dependent on the type of ecosystem and latitude where restoration occurred, the type of metric used to evaluate restoration success, and the climatic variable considered. If there isa  relationship is, then this could serve in restoration ecology for creating restoration models and could eventually be used in restoration practice. The identification of sites where relevant climatic variables (according to the ecosystem and latitude) have deviated considerably,  would help establish restoration priorities to save time and money. Active restoration could be targeted towards places more prone to recover. 
+Greatest negative differences from CMI historical normal values in a site will have an association with restoration failure. This association will be dependent on the type of ecosystem and latitude where restoration occurred, and the type of metric used to evaluate restoration success. If there is an  association then this could be used in restoration ecology to set goals where climate trends and extreme events are incorporated to create more attainable results that are sustainable and impactful. 
 
 ## 2. Methods 
 
-I explored three different of using climate to test the association between recovery completeness and drought: 
+1. Restoration success 
 
-1. **CMI NORMAL 1961-1990**: Obtain the average CMI for the climate normal period of 1961-1990. This reflects 
-2. **CMI restoration period**: Obtain the average CMI value for the duration of the restoration period for each observation and obtain the difference compared to the CMI normal 1961-1990. This corresponds to longer term trends
-3. **CMI extreme**: Choose the largest negative CMI anomaly during the restoration period, i.e. the most severe drought extreme event and subtract from this the corresponding climate normal value for each climate variable (*In progress: to be calculated and added to this site*) your largest negative annual CMI anomaly during the restoration period, representing the most severe drought extreme event.
+To determine restoration success I used an effect size common in meta-analysis known as response ratio (reference). This response ratio is what Jones and collaborators used in their study[6] to determine recovery completeness. I double-checked their estimations and then calculated it for the new studies I incorporated. Response ratio was calculated like this: 
+
+**Response ratio = Ln (End/Goal)** where *End*  represents the recovery variable's value at the end of the study and *Goal* represents the reference goal value to be reached. 
 
 
+2. Climate variables 
+
+Explain here why CMI
+
+I used three different climate values of CMI to test the association between recovery completeness and climate: 
+
+a) **CMI NORMAL 1961-1990**: Obtain the average CMI for the climate normal period of 1961-1990. This reflects 
+b) **CMI restoration period**: Obtain the average CMI value for the duration of the restoration period for each observation and obtain the difference compared to the CMI normal 1961-1990. This corresponds to longer term trends
+c) **CMI extreme**: Choose the largest negative CMI anomaly during the restoration period, i.e. the most severe drought extreme event and subtract from this the corresponding climate normal value for each climate variable (*In progress: to be calculated and added to this site*) your largest negative annual CMI anomaly during the restoration period, representing the most severe drought extreme event.
+
+3. Recovery variables
+
+I focused on those variables most commonly assessed and related to terrestrial ecosystem's restoration: diversity, abundance, community characteristics (referring to composition), nitrogen and nutrients. These were identified from the original study [6] and employed in the same way for the studies I incorporated. 
 
 
 <p align="center">
@@ -61,7 +74,7 @@ Figure 3. Intended project pipeline
 ##
 
 
-Obtaining climate values: Since the period when each restoration varied in duration and start year,  climate normals and historical time series for annual climate variables were designated on a study by study basis. That is, according to the year when the restoration started, the closest climate normal period was chosen for each study. For the historical time series, a period encompassing the first year to the last year of restoration was selected for each study. 
+Location of restoration sites 
 
 
 <p align="center">
@@ -72,12 +85,7 @@ Figure 4. Location of restoration sites
 
 ##
 
-During data exploration I detected the project will need to incorporate more studies within North America at this stage. After filtering for the required parameters, the sample size was greatly reduced (**n=10**). Although restoration observations are considerable for a thorough comparison, the climate values associated to each observation are dependent on the location of the study, which remains unchanged across all observations coming from the same study. So, **observations are nested within study**. Since this is a meta-analysis in the search for patterns, I need as many datapoints as possible to be able to compare across latitudes and ecosystem types within the North America region. Following steps then are: 
-
-1. Incorporate terrestrial restoration studies in North America from 2013-2020 to the original database
-2. Calculate response ratios of recovery completeness for new studies
-3. Data exploration with increased database
-4. Statistical analysis: establishing associations between climate deviation dataset and recovery completeness dataset 
+During data exploration I detected the project will need to incorporate more studies within North America at this stage. After filtering for the required parameters, the sample size was greatly reduced (**n=10**). Although restoration observations are considerable for a thorough comparison, the climate values associated to each observation are dependent on the location of the study, which remains unchanged across all observations coming from the same study. So, **observations are nested within study**. Since this is a meta-analysis in the search for patterns, I need as many datapoints as possible to be able to compare across latitudes and ecosystem types within the North America region. Following steps then are:  
 
 
 
