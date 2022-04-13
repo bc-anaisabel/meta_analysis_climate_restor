@@ -123,11 +123,16 @@ Where each row refers to a different restoration observation and climate variabl
   <img src="output/Table_data_variables.png" width="500"> 
 </p>
 
-### Exploration of observations ###
-
 
 
 ## 4. Results and Discussion
+
+<p align="center">
+  <img src="output/CMI_Normal_Diversity.png" width="500"> 
+</p>
+Figure 5. Scatterplot of recovery of Diversity as a function of CMI historical normal values (1961-1990) 
+
+
 
 Explain: what contributes the most to success or failure? Baseline normal conditions, climate trends, extreme events, or non-climatic factors?
 
