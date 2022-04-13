@@ -127,14 +127,39 @@ Where each row refers to a different restoration observation and climate variabl
 
 ## 4. Results and Discussion
 
+Some of the recovery metrics had to be left out because there was not enough data to compare the results. However, the recovery metrics of diversity, abundance, nitrogen and nutrients were analyzed and I found two different outcomes that can be divided in diversity metrics and soil characteristics metrics. 
+
+For diversity, which includes abundance (this considers abundance as general biomass) and species diversity, there was an association between general dryness and lack of recovery. That is increasing CMI can be associated with greater recovery of biomass and species diversity (Figures 5 and 6). 
+
 <p align="center">
   <img src="output/CMI_Normal_Diversity.png" width="500"> 
 </p>
-Figure 5. Scatterplot of recovery of Diversity as a function of CMI historical normal values (1961-1990) 
+
+Figure 5. Scatterplot of recovery of Diversity over CMI historical normal values (1961-1990) 
+
+Figure 6. Scatterplot of recovery of Abundance over CMI historical normal values (1961-1990)
+
+Figure 7. Scatterplot of recovery of Diversity as a function of the difference of the average CMI value for the restoration period and the historical normal
+
+Figure 8. Scatterplot of recovery of Abundance as a function of the difference of the average CMI value for the restoration period and the historical normal
+
+Figure 9. Scatterplot of recovery of Diversity as a function of the largest negative CMI anomaly during the restoration relative to the  the historical normal
+
+Figure 10. Scatterplot of recovery of Abundance as a function of the largest negative CMI anomaly during the restoration relative to the  the historical normal
+
+Then for those recovery metrics referring to soil characteristics the results were less clear. This is likely due to several factors:
+-Less understanding in what the soil characteristic represents for the recovery
+-Other climatic, ecological processes and soil chemical and phisical properties affecting it
+-Less number of observations
+
+
+At the moment the studies I am analyzing are focused in the eastern part of the United States and already an association can be seen between drought and lack of recovery. Since it is the western region of North America that is predicted to experience the greater effects from drought with climate change (reference) I consider these patterns are going to be more clear when incorporating more studies that include these areas. 
 
 
 
 Explain: what contributes the most to success or failure? Baseline normal conditions, climate trends, extreme events, or non-climatic factors?
+
+It appears that baseline normal conditions and extreme events contribute to to the success or failure of restoration. But further research is required, more sites, other non-climatic factors...
 
 
 ## 5. Conclusions, About, References (*in progress*)
