@@ -131,7 +131,7 @@ Some of the recovery metrics had to be left out because there was not enough dat
 
 For diversity, which includes abundance (this considers abundance as general biomass) and species diversity, there was an association between general dryness and lack of recovery. That is increasing CMI can be associated with greater recovery of biomass and species diversity (Figures 5 and 6). 
 
-<p align="center">
+<p align="left">
   <img src="output/CMI_Normal_Diversity.png" width="500"> 
 </p>
 
