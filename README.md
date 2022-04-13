@@ -47,7 +47,9 @@ Greatest negative differences from CMI historical normal values in a site will h
 
 To determine restoration success I used an effect size common in meta-analysis known as response ratio (reference). This response ratio is what Jones and collaborators used in their study[6] to determine recovery completeness. I double-checked their estimations and then calculated it for the new studies I incorporated. Response ratio was calculated like this: 
 
-**Response ratio = Ln (End/Goal)** where *End*  represents the recovery variable's value at the end of the study and *Goal* represents the reference goal value to be reached. 
+**Response ratio = Ln (End/Goal)** 
+
+*End* represents the recovery variable's value at the end of the study and *Goal* represents the reference goal value to be reached. 
 
 
 2. Climate variables 
@@ -56,19 +58,25 @@ Explain here why CMI
 
 I used three different climate values of CMI to test the association between recovery completeness and climate: 
 
-a) **CMI NORMAL 1961-1990**: Obtain the average CMI for the climate normal period of 1961-1990. This reflects 
-b) **CMI restoration period**: Obtain the average CMI value for the duration of the restoration period for each observation and obtain the difference compared to the CMI normal 1961-1990. This corresponds to longer term trends
-c) **CMI extreme**: Choose the largest negative CMI anomaly during the restoration period, i.e. the most severe drought extreme event and subtract from this the corresponding climate normal value for each climate variable (*In progress: to be calculated and added to this site*) your largest negative annual CMI anomaly during the restoration period, representing the most severe drought extreme event.
+a) **CMI NORMAL 1961-1990**: Obtain the average CMI for the climate period of 1961-1990. This can be considered as historical conditions pre-climate change.
+
+b) **CMI restoration period**: Obtain the average CMI value for the duration of the restoration period for each observation and obtain the difference compared to the CMI normal 1961-1990. This corresponds to longer term trends. 
+
+c) **CMI extreme**: Choose the largest negative CMI anomaly during the restoration period, i.e. the most severe drought extreme event. This represents the most severe drought event during the restoration.
+
 
 3. Recovery variables
 
 I focused on those variables most commonly assessed and related to terrestrial ecosystem's restoration: diversity, abundance, community characteristics (referring to composition), nitrogen and nutrients. These were identified from the original study [6] and employed in the same way for the studies I incorporated. 
 
 
+The order of these calculations can be followed in the project pipeline: 
+
+
 <p align="center">
-  <img src="output/methods_pipeline2.png" width="1000"> 
+  <img src="output/methods_pipeline_2.png" width="1000"> 
 </p>
-Figure 3. Intended project pipeline
+Figure 3. Project pipeline
 
 
 ##
@@ -94,6 +102,7 @@ During data exploration I detected the project will need to incorporate more stu
 The dataset is divided into 2 database tables:
 
 1. The original [database](data/Clim_dev_test.csv) containing all restoration metrics and study information
+
 2. The database containing the study, metric of restoration, recovery completeness and values for the three climate approaches 
 
 - Experimental units: each ecosystem aspect that was evaluated in restoration is an experimental unit, but this is nested within the study where it comes from, i.e. observations are not independent. 
