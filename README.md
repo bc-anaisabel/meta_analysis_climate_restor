@@ -86,7 +86,7 @@ Location of restoration sites
 
 
 <p align="center">
-  <img src="output/Restoration_sites_maps.png" width="1000"> 
+  <img src="output/Restoration_sites_maps.png" width="800"> 
 </p>
 Figure 4. Location of restoration sites
 
@@ -135,13 +135,22 @@ For diversity, which includes abundance (this considers abundance as general bio
   <img src="output/CMI_Normal_Diversity.png" width="500"> 
 </p>
 
+
 Figure 5. Scatterplot of recovery of Diversity over CMI historical normal values (1961-1990) 
 
 Figure 6. Scatterplot of recovery of Abundance over CMI historical normal values (1961-1990)
 
+<p align="right">
+  <img src="output/CMI_Avg_Diversity.png" width="500"> 
+</p>
+
 Figure 7. Scatterplot of recovery of Diversity as a function of the difference of the average CMI value for the restoration period and the historical normal
 
 Figure 8. Scatterplot of recovery of Abundance as a function of the difference of the average CMI value for the restoration period and the historical normal
+
+<p align="right">
+  <img src="output/CMI_ext_Diversity.png" width="500"> 
+</p>
 
 Figure 9. Scatterplot of recovery of Diversity as a function of the largest negative CMI anomaly during the restoration relative to the  the historical normal
 
