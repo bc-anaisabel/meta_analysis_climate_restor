@@ -159,8 +159,11 @@ Figure 9. Scatterplot of recovery of Diversity as a function of the largest nega
 Figure 10. Scatterplot of recovery of Abundance as a function of the largest negative CMI anomaly during the restoration relative to the  the historical normal
 
 Then for those recovery metrics referring to soil characteristics the results were less clear. This is likely due to several factors:
--Less understanding in what the soil characteristic represents for the recovery
+
+-Less understanding in what the soil characteristic represents for the recovery: Nutrient cycling generally recovers rapidly following disturbance in forest ecosystems (reference: https://link.springer.com/content/pdf/10.1007/s10021-019-00432-3.pdf) 
+
 -Other climatic, ecological processes and soil chemical and phisical properties affecting it
+
 -Less number of observations
 
 
