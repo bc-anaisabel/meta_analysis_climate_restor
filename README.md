@@ -22,7 +22,7 @@ Modify:
 
 <p align="center">
   <img src="output/Standards_Restorative_Contin.png" width="600"> 
-</p>
+  </p>
  Figure 1. Restorative continuum. "Activities undertaken by society to repair damage to the broader environment, complement ecological restoration and provide improved conditions for broad scale recovery". From the [Society for Ecological Restoration](https://www.ser.org/general/custom.asp?page=SERNews3112)
 
 
