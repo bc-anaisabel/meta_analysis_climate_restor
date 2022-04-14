@@ -37,7 +37,7 @@ To address this, there have been proposals to assess the previous climatic condi
 
 - Analyze and consider climate trends and extreme events in association to the restoration success/failure 
 
-- Establish restoration success (response ratio of recovery completeness) for studies from 2013-2020 in North America - (*identified from data exploration*)
+- Establish restoration success (response ratio of recovery completeness) for studies from 2013-2020 in North America - (*in process*)
 
 
 ### Expected results
