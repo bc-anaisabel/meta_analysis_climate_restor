@@ -137,32 +137,29 @@ Update:
 
 ## 4. Results and Discussion
 
-Some of the recovery metrics had to be left out because there was not enough data to compare the results. However, the recovery metrics of diversity, abundance, nitrogen and nutrients were analyzed and I found two different outcomes that can be divided in diversity metrics and soil characteristics metrics. 
+Some of the recovery metrics had to be left out because there was not enough data to compare the results. However, the recovery metrics of diversity, abundance (biomass), nitrogen and nutrients were analyzed and I found two different patterns that can be divided in diversity metrics and soil characteristics metrics. 
 
-For diversity, which includes abundance (this considers abundance as general biomass) and species diversity, there was an association between general dryness and lack of recovery. That is increasing CMI can be associated with greater recovery of biomass and species diversity (Figures 5 and 6). 
+For measurements of recovery of diversity and abundance, there was an association between general dryness and lack of recovery, also put as increasing CMI can be associated with greater recovery of biomass and species diversity (Figure 5). There was no clear association between CMI trends and recovery for these metrics. 
+
+<p align="center">
+  <img src="output/CMI_Abun_Diver_normal_avg.png" width="800"> 
+</p>
+Figure 5. Scatterplot for recovery of diversity and abundance over CMI normal values (1961-1990) and CMI trends. 
+
+
+When observing CMI anomalies the association was stronger, drought events were strongly associated with less recovery. 
 
 <p align="left">
-  <img src="output/CMI_Normal_Diversity.png" width="500"> 
-<p align="right">
-  <img src="output/CMI_Normal_Abundance.png" width="500"> 
+  <img src="output/CMI_ext_Diversity.png" width="500"> 
 </p>
+Figure 6. Scatterplot of recovery of aiversity and abundance as a function of the largest negative CMI anomaly during the restoration relative to the  the historical normal
 
 
-Figure 5. Scatterplot of recovery of Diversity over CMI historical normal values (1961-1990)                    
-
-Figure 6. Scatterplot of recovery of Abundance overCMI historical normal values (1961-1990)
-
-<p align="left">
-  <img src="output/CMI_Avg_Diversity.png" width="500"> 
-</p>
 
 Figure 7. Scatterplot of recovery of Diversity as a function of the difference of the average CMI value for the restoration period and the historical normal
 
 Figure 8. Scatterplot of recovery of Abundance as a function of the difference of the average CMI value for the restoration period and the historical normal
 
-<p align="left">
-  <img src="output/CMI_ext_Diversity.png" width="500"> 
-</p>
 
 Figure 9. Scatterplot of recovery of Diversity as a function of the largest negative CMI anomaly during the restoration relative to the  the historical normal
 
