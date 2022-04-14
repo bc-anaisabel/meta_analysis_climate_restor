@@ -133,16 +133,16 @@ For diversity, which includes abundance (this considers abundance as general bio
 
 <p align="left">
   <img src="output/CMI_Normal_Diversity.png" width="500"> 
-</p>
 <p align="right">
   <img src="output/CMI_Normal_Abundance.png" width="500"> 
 </p>
 
 
-Figure 5. Scatterplot of recovery of Diversity over                     Figure 6. Scatterplot of recovery of Abundance over
-CMI historical normal values (1961-1990)                                CMI historical normal values (1961-1990)
+Figure 5. Scatterplot of recovery of Diversity over CMI historical normal values (1961-1990)                    
 
-<p align="right">
+Figure 6. Scatterplot of recovery of Abundance overCMI historical normal values (1961-1990)
+
+<p align="left">
   <img src="output/CMI_Avg_Diversity.png" width="500"> 
 </p>
 
@@ -150,7 +150,7 @@ Figure 7. Scatterplot of recovery of Diversity as a function of the difference o
 
 Figure 8. Scatterplot of recovery of Abundance as a function of the difference of the average CMI value for the restoration period and the historical normal
 
-<p align="right">
+<p align="left">
   <img src="output/CMI_ext_Diversity.png" width="500"> 
 </p>
 
