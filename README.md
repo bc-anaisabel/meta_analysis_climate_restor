@@ -7,7 +7,7 @@ In this study I am analyzing if there is an association between **climate trends
 In this repository you can find: 
 - The original [database](/data/Clim_dev_test.csv) with all the studies' information and the second [database](/data/Data_2_for_github.csv) that includes climate values in the [data](/data/) folder
 - The output files including graphs, tables and images for illustration of this project in the [output](/output/) folder
-- R script for data multivariate analysis in the [bin](bin/) folder
+
 
 ##
 
@@ -23,7 +23,7 @@ A meta-analysis study on the success of restored ecosystems following disturbanc
 <p align="center">
   <img src="output/restoration_priorities.png" width="600"> 
   </p>
- Figure 1. Restoration priorities map from the [International Institute for Sustainable Development](https://www.iis-au.org/publications/global-priority-areas-for-ecosystem-restoration/).
+ Figure 1. Restoration priorities map from the [International Institute for Sustainable Development](https://www.iis-au.org/publications/global-priority-areas-for-ecosystem-restoration/)  
  
   
   To address this, there have been proposals to assess the previous climatic conditions in the site that is to be restored. Some of these have involved the use of historical normal climate values as reasonable time period to compare to a pre-climate change condition [2,4,9,10]. If climatic variables in a disturbed ecosystem have deviated considerably compared to its historical normal values, the conditions for restoration might not exist in the same way as before (Figure 2). Thus, by assessing the extent of recovery of past restoration sites based on the metric used by Jones and collaborators [6], and incorporating climate normal, trends and anomalies, I intend to test if this could be a tool used in management plans and help setting restoration goals. I am focusing in climate moisture index (CMI) as this is one the climate components that most affects the dynamics of terrestrial ecosystem in North America [11,12]. If I find associations of restoration failure with observed CMI trends and anomalies, then this would be evidence that restoration ecology should shift away from restore what was there before, and instead set goals that consider new and anticipated climates while also priotitizing where is most needeed and most likely to be successful. 
@@ -35,14 +35,14 @@ A meta-analysis study on the success of restored ecosystems following disturbanc
 
 ### Research objectives
 
-- Identify if there is an association between general dryness and restoration success and if there are factors that participate in the direction and strenght of the association (e.g. ecosystem type, latitude, restoration period, recovery metric). 
+- To account for the importance of baseline conditions I want to identify if there is an association between general dryness and restoration success and if recovery metric participates in the direction and strenght of the association
 
-- Incorporate and analyze CMI trends and extreme events in association to restoration success or failure. 
-
+- Incorporate CMI trends and severe drought events and analyze its association with restoration success
 
 ### Expected results
 
-Greatest negative differences from CMI historical normal values in a site will have an association with restoration failure. This association will be dependent on the type of ecosystem and latitude where restoration occurred, and the type of metric used to evaluate restoration success. If there is an association then this could be used in restoration ecology to set goals where climate trends and extreme events are incorporated to create more attainable results that are sustainable and useful.
+Greatest  differences from CMI historical normal values and the severity of drought events will have an association with restoration failure. This association may be dependent on the type of metric used to evaluate restoration success. If there is an association the more climate has changed the less successful the restoration efforts will be, so  this could be used to set goals where climate trends and extreme events are incorporated to create more attainable results that are sustainable and useful. If there is no association then other climate variables or conditions like latitude, nutrient cycling and ecosystem type should be analyzed as well. 
+
 
 ## 2. Methods 
 
@@ -70,7 +70,7 @@ c) **CMI extreme**: Choosed the greatest CMI anomaly during the restoration peri
 
 3. Recovery variables
 
-I focused in the most commonly assessed recovery variables in the database: diversity, abundance, community characteristics (referring to composition), soil characteristics, organic matter, nitrogen, phosphorus, carbon, and nutrients. These were identified from the original study [6]. However for this project I only used diversity, abundance, nitrogen and nutrients because there was not enough data points for the other recovery metrics. 
+I focused in the most commonly assessed recovery variables in the database: diversity, abundance, community characteristics (referring to composition), soil characteristics, organic matter, nitrogen, phosphorus, carbon, and nutrients. These were identified from the original study [6]. However for this project I only used 'diversity' (species diversity), 'abundance' (biomass), soil 'nitrogen' and other soil 'nutrients' because there was not enough data points for the other recovery metrics. 
   
   The order of these steps can be followed in the project pipeline (Figure 3).  
 
@@ -83,9 +83,7 @@ I focused in the most commonly assessed recovery variables in the database: dive
 
 ##
 
-### Location of restoration sites 
-
-The number of sites I considered is limited because I used only the response ratios calculated by the original meta-analysis for this project. The 10 different sites where data were collected are mostly located in Eastern United States (Figure 4).  
+The number of sites I considered is limited because I used only the response ratios calculated by the original meta-analysis for this project. The 10 different sites where data were collected are mostly located in the Eastern United States (Figure 4).  
 
 <p align="center">
   <img src="output/Restoration_sites_maps.png" width="800"> 
@@ -99,7 +97,7 @@ The dataset is divided into 2 database tables:
 
 1. The original [database](data/Clim_dev_test.csv) containing all restoration metrics and study information
 
-2. The database containing the study, metric of restoration, recovery completeness and values for the three CMI types of variables 
+2. The database containing the study's basic identification information, recovery metric value,  and values for the three CMI types of variables 
 
 - Experimental units: each aspect that was evaluated for recovery across the sites is considered a an experimental unit, but this is nested within the study where it comes from, i.e. observations are not independent. 
 
@@ -110,7 +108,7 @@ This is how the second [database table](data/Data_2_for_github.csv) looks like:
   <img src="output/Data_2.png" width="1000"> 
 </p>
   
-  Where each row refers to a different observation. Starting at the left side columns contain the information for each observation and next are the recovery variables and the last columns are the climate variables (the complete database contains more climate observations that the ones shown here a more detailed breakdown of the information can be found in Table 2). The climate variables (predictor variables) are continuous and the recovery values (response variables) are also continuous. 
+  Where each row refers to a different observation. Starting at the left side columns contain the study's information for each observation and next are the recovery variables and the last columns are the climate variables (the complete database contains more climate observations that the ones shown here, a  breakdown of the information can be found in Table 2). The climate variables (predictor variables) are continuous and the recovery values (response variables) are also continuous. 
 
 
 *Table 2. Variables used in dataset of Table 1*
@@ -122,7 +120,7 @@ This is how the second [database table](data/Data_2_for_github.csv) looks like:
 
 ## 4. Results and Discussion
 
-I analyzed the recovery of diversity, abundance (biomass), nitrogen and nutrients and I found two different patterns in relation to CMI that can be divided into diversity/abundance metrics and soil characteristics metrics. 
+I analyzed the recovery of diversity, abundance (biomass), soil nitrogen and other soil nutrients and I found two different patterns in relation to CMI that can be divided into diversity/abundance metrics and soil characteristics metrics. 
 
 ### Drought decreases recovery in biodiversity 
 
@@ -134,7 +132,7 @@ For recovery of these two metrics, there was an association between general dryn
  
 Figure 5. Scatterplot for recovery of diversity (1A) and abundance (1B) over CMI normal values (1961-1990) (2A) and CMI trends (2B).
 
- The lack of association between CMI trends and restoration success can have two different explanations. First it can be that CMI trends do not explain the variation in recovery of diversity and abundance and so it is general dryness and extreme events (later on explained in detail) that participate in shaping the recovery trajectories. If that is the case still more data are needed to confirm this explanation. The second option is that during the years of the restoration CMI does not reflect significant change because for most of these studies the restoration occurred in the late 80s and early 90s and perhaps climate trends were not that different to the historical normal period just yet. If this is the case then by including more data coming from studies where restoration occurred more recently, that is likely greater changes in climate trends, I should find a greater response from recovery to CMI trends. 
+ The lack of association between CMI trends and restoration success can have two different explanations. First it can be that CMI trends do not explain the variation in recovery of diversity and abundance and so it is general dryness as a baseline condition and extreme events that participate in shaping the recovery trajectories. If that is the case still more data are needed to confirm this explanation. The second option is that during the years of the restoration CMI does not reflect significant change because for most of these studies the restoration occurred in the late 80s and early 90s and perhaps climate trends were not that different to the historical normal period just yet. If this is the case then by including more data coming from studies where restoration occurred more recently, that is likely greater changes in climate trends, I should find a greater response from recovery to CMI trends. 
 
  When observing CMI anomalies the association was stronger, drought events were strongly associated with less recovery (Figure 6). 
 
@@ -147,7 +145,7 @@ Figure 5. Scatterplot for recovery of diversity (1A) and abundance (1B) over CMI
    
 ### No clear patterns for drought and soil nutrients
 
-For the recovery metrics referring to soil characteristics (in this case nitrogen and other soil nutrients) some of the results were less clear as the data were more dispersed. I found weak associations of general dryness and increasing recovery of soil nitrogen and other nutrients (Figure 7). For the anomalies it was similar, it appears that wetter conditions associated with less recovery, weakly for  nitrogen but more clearly for other nutrients (Figure 8). Contrastingly to all other recovery metrics there was a strong association between drought trends and lack of soil nitrogen recovery (Figure 9).  
+For the recovery metrics referring to soil attributes (in this case nitrogen and other soil nutrients) some of the results were less clear as the data were more dispersed. I found weak associations of general dryness and increasing recovery of soil nitrogen and other nutrients (Figure 7). For the anomalies it was similar, it appears that wetter conditions associated with less recovery, weakly for  nitrogen but more clearly for other nutrients (Figure 8). Also contrastingly to all other recovery metrics, there was a strong association between climate trends for drought and lack of soil nitrogen recovery (Figure 9).  
 
 <p align="center">
   <img src="output/CMI_normal_nit_nut.png" width="800"> 
@@ -164,12 +162,12 @@ For the recovery metrics referring to soil characteristics (in this case nitroge
 </p>
  Figure 9. Scatterplot of recovery of soil nitrogen (left panel) and nutrients (right panel) over CMI trends
 
-The variation found can be explained with the influence of several factors, dynamics of nitrogen and soil nutrients, influence of climate variables other than CMI, and most importantly at this stage the reduced number of observations. Firstly, there is less understanding in what the soil characteristics measured in the studies represent for the recovery of each site, I need to study in more detail the original classification in the meta-analysis as for example more nitrogen deposition is not necessarily a sign of recovery. Although nutrient cycling generally recovers rapidly following disturbance in forest ecosystems [14] the dynamics are more complex to study than for biodiversity. Other climate variables may be participating, in the eastern United States wetter conditions have been observed [15] which could alter the dynamics of nutrient cycling, moving away from reference goals in a different direction than biodiversity. Lastly, the lesser number of observations is likely influencing these results and there might be a different response once more studies are included, particularly for soil nitrogen there appears to be one site driving a change in trajectory (Figures 7 and 8). It would be interesting once more data on the western side is included to see if these patterns change. 
+The variation found can be explained with the influence of several factors mainly being the dynamics of nitrogen and soil nutrients, the role of climate variables other than CMI, and most importantly at this stage the reduced number of observations. Firstly, there is less understanding in what the soil characteristics measured in the studies represent for the recovery of each site, I need to study in more detail the original classification in the meta-analysis as for example more nitrogen deposition is not necessarily a sign of recovery. Although nutrient cycling generally recovers rapidly following disturbance in forest ecosystems [14] the dynamics are more complex to study than for biodiversity. Other climate variables may be participating, in the eastern United States wetter conditions have been observed [15] which could alter the dynamics of nutrient cycling, moving away from reference goals in a different direction than biodiversity with increasing drought. Lastly, the lesser number of observations is likely influencing these results and there might be a different response once more studies are included, particularly for soil nitrogen there appears to be one site driving a change in trajectory (Figures 7 and 8). It would be interesting once more data on the western side is included to see if these patterns change. 
 
 
 ## 5. Conclusions
 
-It appears that baseline normal conditions and severe drought events contribute to the failure of restoration when considering biodiversity assessments, however for soil nutrients the contribution of climate seems less clear or not as important. In both cases further analysis and data compilation is needed to formulate robust conclusions.  Lastly, because of the complexity of the recovery data in this meta-analysis from this initial approach I conclude that once I gather more recent studies that possibly allow me to analyze climate conditions more broadly, a detailed evaluation of recovery metric classification would be needed to be able to characterize recovery patterns and see if there are factors like latitude, ecosystem type and recovery metric affecting the strenght and direction of the associations.. 
+It appears that baseline normal conditions and severe drought events contribute to the failure of restoration when considering biodiversity assessments, however for soil nutrients the contribution of climate seems less clear or not as important. In both cases further analysis and data compilation is needed to formulate robust conclusion. Lastly, because of the complexity of the recovery data in this meta-analysis from this initial approach I conclude that once I gather more recent studies that possibly allow me to analyze climate conditions more broadly, a detailed evaluation of recovery metric classification would be needed to be able to characterize recovery patterns, and also see if there are factors like latitude and ecosystem type affecting the strenght and direction of the associations.
 
 
 ### Following directions
@@ -178,7 +176,7 @@ It appears that baseline normal conditions and severe drought events contribute 
 
 - Determine if there are other climatic variables that may be useful and have an association to the recovery trajectory of a restored ecosystem
 
-- Multivariate analysis once more data are included to be able to draw accurate conclusions of the role and contribution of each CMI variable and other climate variables 
+- Multivariate analysis once more data are included to be able to draw accurate conclusions of the role and contribution of each CMI variable and other climate variables to the variation found in restoration success
 
 
 ### References ###
