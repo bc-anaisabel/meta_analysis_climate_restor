@@ -126,7 +126,7 @@ I analyzed the recovery of diversity, abundance (biomass), nitrogen and nutrient
 
 ### Diversity/abundance
 
-For recovery of these two metrics, there was an association between general dryness and lack of recovery or also can be put as increasing CMI is associated with greater recovery of biomass and species diversity (Figure 5). There was no clear association between CMI trends and recovery for these metrics. 
+For recovery of these two metrics, there was an association between general dryness and a lack of recovery. These are data mostly drawn from forests so it makes sense that greater CMI is strongly associated with greater recovery of biomass and species diversity (Figure 5). There was no clear association between CMI trends and the recovery of abundance and diversity. 
 
 <p align="center">
   <img src="output/CMI_Abun_Diver_normal_avg.png" width="800"> 
@@ -134,26 +134,43 @@ For recovery of these two metrics, there was an association between general dryn
  
 Figure 5. Scatterplot for recovery of diversity (1A) and abundance (1B) over CMI normal values (1961-1990) (2A) and CMI trends (2B).
 
- The lack of association between CMI trends can have two different explanations. First it can be that CMI trends do not explain the variation in recovery of diversity and abundance and it is general dryness and extreme events that participate in shaping the recovery trajectories. If this is the case still more data are needed to confirm it. The second option is that during the years of the restoration CMI does not reflect significant change because for most of these studies the restoration occurred in the late 80s and early 90s and perhaps climate trends were not that different to the historical normal period. If this is the case then by including more data of studies where restoration occurred more recently, that is greater climate change, I should find a greater response from recovery to CMI trends. 
+ The lack of association between CMI trends and restoration success can have two different explanations. First it can be that CMI trends do not explain the variation in recovery of diversity and abundance and so it is general dryness and extreme events (later on explained in detail) that participate in shaping the recovery trajectories. If that is the case still more data are needed to confirm this explanation. The second option is that during the years of the restoration CMI does not reflect significant change because for most of these studies the restoration occurred in the late 80s and early 90s and perhaps climate trends were not that different to the historical normal period just yet. If this is the case then by including more data coming from studies where restoration occurred more recently, that is likely greater changes in climate trends, I should find a greater response from recovery to CMI trends. 
 
  When observing CMI anomalies the association was stronger, drought events were strongly associated with less recovery (Figure 6). 
 
 <p align="center">
   <img src="output/CMI_Abun_Diver_ext.png" width="800"> 
 </p>
- Figure 6. Scatterplot of recovery of diversity (A) and abundance (B) as a function of the largest negative CMI anomaly during the restoration relative to the  the historical normal
+ Figure 6. Scatterplot of recovery of diversity (A) and abundance (B) as a function of the largest CMI anomaly during the restoration relative to the historical normal
  
- Climate extreme events are becoming more frequent and in particular increasing drought is already affecting terrestrial ecosystem's biodiversity and productivity [**reference**]. Hence it is not surprising that these events affect the success of restoration. However, these events are also getting more accurately predicted, and this can be planned for in some of the restoration sites [**reference**]. 
+ Climate extreme events are becoming more frequent and in particular severe droughts are already affecting forests' biodiversity and productivity [12]. Hence it is not surprising that these events affect the success of restoration. However, these events are also getting more accurately predicted, and so knowing that there is a a strong association with restoration success, if a site has gone or will go through important drought events the restoration approach can contemplate for different conditions by adjusting the goals and choosing methods and species that are known to adapt to these conditions. 
    
 ### Soil characteristics
 
-For the recovery metrics referring to soil characteristics (in this case nitrogen and nutrients) some of the results were less clear as the data were more dispersed. There were weak associations between general dryness and soil nitrogen and nutrients recovery (Figure 7). The greatest drought events had an a weak association with nitrogen recovery, but for soil nutrients this was similar to what I found for diversity and abundance, more drought meant less recovery (Figure 8). There was no association between CMI trends for nutrient recovery but contrastingly to all other recovery metrics, there was a strong association between decreases in CMI trends and lack of recovery (Figure 9). The variation found is likely due to several factors. But first, it must be clarified that grouping of the recovery metrics is only to provide a more simple interpretation of the results for the purposes of this project. Once more studies are added to the meta-analysis this grouping may change and its results may change as well. 
+For the recovery metrics referring to soil characteristics (in this case nitrogen and nutrients) some of the results were less clear as the data were more dispersed. I found weak associations between general dryness and the recovery of soil nitrogen and nutrients (Figure 7). For the anomalies, here it appears that wetter conditions associated with less recovery, weakly for soil nitrogen but more clearly for soil nutrients (Figure 8). There was no association between CMI trends for nutrient recovery, but contrastingly to all other recovery metrics there was a strong association between decreases in CMI trends and lack of recovery (Figure 9).  
 
-The factors involved in the variation found in recovery of nitrogen and nutrients in forests and grasslands' soils are  dynamics of nitrogen and soil nutrients, influence of climate variables other than CMI, and the reduced number of observations. There is less understanding in what the soil characteristics measured in the studies represent for the recovery of each site, greater attention to the original classification in the analysis should be considered. Also, nutrient cycling generally recovers rapidly following disturbance in forest ecosystems (reference: https://link.springer.com/content/pdf/10.1007/s10021-019-00432-3.pdf) so... Other climate variables may be participating... the dynamics of nutrient cycling are not easily classified into ecosystem types and latitude may play an important role. Lastly, the lesser number of observations is likely influencing these results and there might be a different response once more studies are included. 
+<p align="center">
+  <img src="output/CMI_normal_nit_nut.png" width="800"> 
+</p>
+ Figure 7. Scatterplot of recovery of soil nitrogen (left panel) and nutrients (right panel) over CMI normal values (1961-1990)
+ 
+ <p align="center">
+  <img src="output/CMI_ext_nit_nut.png" width="800"> 
+</p>
+ Figure 8. Scatterplot of recovery of soil nitrogen (left panel) and nutrients (right panel) as a function of the largest CMI anomaly during the restoration relative to the historical normal
+ 
+ <p align="center">
+  <img src="output/CMI_avg_nit_nut.png" width="800"> 
+</p>
+ Figure 9. Scatterplot of recovery of soil nitrogen (left panel) and nutrients (right panel) over CMI trends
+
+The variation found is likely due to several factors, dynamics of nitrogen and soil nutrients, influence of climate variables other than CMI, and the reduced number of observations. There is less understanding in what the soil characteristics measured in the studies represent for the recovery of each site, greater attention to the original classification in the analysis should be considered. Also, nutrient cycling generally recovers rapidly following disturbance in forest ecosystems (reference: https://link.springer.com/content/pdf/10.1007/s10021-019-00432-3.pdf) so... Other climate variables may be participating... the dynamics of nutrient cycling are not easily classified into ecosystem types and latitude may play an important role. Lastly, the lesser number of observations is likely influencing these results and there might be a different response once more studies are included. 
 
 Explain: what contributes the most to success or failure? Baseline normal conditions, climate trends, extreme events, or non-climatic factors?
 
 It appears that baseline normal conditions and extreme events contribute to to the success or failure of restoration when considering impacts in biodiversity metrics, however it appears that for nitrogen decreases in CMI compared historical normal values are more determining in the recovery. Other soil nutrients report varied responses and greater analysis that includes more data is needed to formulate conclusions. In all of this cases the evidence needs to be strenghtened with more studies. 
+
+t must be clarified that grouping of the recovery metrics is only to provide a more simple interpretation of the results for the purposes of this project. Once more studies are added to the meta-analysis this grouping may change and its results may change as well. 
 
 ## 
 
