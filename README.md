@@ -131,7 +131,7 @@ For recovery of these two metrics, there was an association between general dryn
   <img src="output/CMI_Abun_Diver_normal_avg.png" width="800"> 
 </p>
  
-Figure 5. Scatterplot for recovery of diversity (upper left side) and abundance (upper right side) over CMI normal values (1961-1990) and CMI trends.
+<p align="center"> Figure 5. Scatterplot for recovery of diversity (upper left side) and abundance (upper right side) over CMI normal values (1961-1990) and CMI trends </p>
 
  The lack of association between CMI trends and restoration success can have two different explanations. First it can be that CMI trends do not explain the variation in recovery of diversity and abundance and so it is general dryness as a baseline condition and extreme events that participate in shaping the recovery trajectories. If that is the case still more data are needed to confirm this explanation. The second option is that during the years of the restoration CMI does not reflect significant change because for most of these studies the restoration occurred in the late 80s and early 90s and perhaps climate trends were not that different to the historical normal period just yet. If this is the case then by including more data coming from studies where restoration occurred more recently, that is likely greater changes in climate trends, I should find a greater response from recovery to CMI trends. 
 
@@ -140,7 +140,7 @@ Figure 5. Scatterplot for recovery of diversity (upper left side) and abundance 
 <p align="center">
   <img src="output/CMI_Abun_Diver_ext.png" width="800"> 
 </p>
- Figure 6. Scatterplot of recovery of diversity (A) and abundance (B) as a function of the largest CMI anomaly during the restoration relative to the historical normal
+<p align="center"> Figure 6. Scatterplot of recovery of diversity (A) and abundance (B) as a function of the largest CMI anomaly during the restoration relative to the historical normal </p>
  
  Climate extreme events are becoming more frequent and in particular severe droughts are already affecting forests' biodiversity and productivity [12]. Hence it is not surprising that these events affect the success of restoration. However, these events are also getting more accurately predicted, and so knowing that there is a a strong association with restoration success, if a site has gone or will go through important drought events the restoration approach can contemplate for different conditions by adjusting the goals and choosing methods and species that are known to adapt to these conditions. 
    
@@ -156,12 +156,12 @@ For the recovery metrics referring to soil attributes (in this case nitrogen and
  <p align="center">
   <img src="output/CMI_ext_nit_nut.png" width="800"> 
 </p>
- Figure 8. Scatterplot of recovery of soil nitrogen (left panel) and nutrients (right panel) as a function of the largest CMI anomaly during the restoration relative to the historical normal
+<p align="center"> Figure 8. Scatterplot of recovery of soil nitrogen (left panel) and nutrients (right panel) as a function of the largest CMI anomaly during the restoration relative to the historical normal </p>
  
  <p align="center">
   <img src="output/CMI_avg_nit_nut.png" width="800"> 
 </p>
- Figure 9. Scatterplot of recovery of soil nitrogen (left panel) and nutrients (right panel) over CMI trends
+<p align="center"> Figure 9. Scatterplot of recovery of soil nitrogen (left panel) and nutrients (right panel) over CMI trends </p>
 
 The variation found can be explained with the influence of several factors mainly being the dynamics of nitrogen and soil nutrients, the role of climate variables other than CMI, and most importantly at this stage the reduced number of observations. Firstly, there is less understanding in what the soil characteristics measured in the studies represent for the recovery of each site, I need to study in more detail the original classification in the meta-analysis as for example more nitrogen deposition is not necessarily a sign of recovery. Although nutrient cycling generally recovers rapidly following disturbance in forest ecosystems [14] the dynamics are more complex to study than for biodiversity. Other climate variables may be participating, in the eastern United States wetter conditions have been observed [15] which could alter the dynamics of nutrient cycling, moving away from reference goals in a different direction than biodiversity with increasing drought. Lastly, the lesser number of observations is likely influencing these results and there might be a different response once more studies are included, particularly for soil nitrogen there appears to be one site driving a change in trajectory (Figures 7 and 8). It would be interesting once more data on the western side is included to see if these patterns change. 
 
