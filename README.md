@@ -42,7 +42,7 @@ Modify:
 
 ### Expected results
 
-Greatest negative differences from CMI historical normal values in a site will have an association with restoration failure. This association will be dependent on the type of ecosystem and latitude where restoration occurred, and the type of metric used to evaluate restoration success. 
+Greatest negative differences from CMI historical normal values in a site will have an association with restoration failure. This association will be dependent on the type of ecosystem and latitude where restoration occurred, and the type of metric used to evaluate restoration success. If there is an association then this could be used in restoration ecology to set goals where climate trends and extreme events are incorporated to create more attainable results that are sustainable and impactful.
 
 ## 2. Methods 
 
