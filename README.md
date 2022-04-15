@@ -124,7 +124,7 @@ This is how the second [database table](data/Data_2_for_github.csv) looks like:
 
 I analyzed the recovery of diversity, abundance (biomass), nitrogen and nutrients and I found two different patterns in relation to CMI that can be divided into diversity/abundance metrics and soil characteristics metrics. 
 
-### Diversity/abundance
+### Drought decreases recovery in biodiversity 
 
 For recovery of these two metrics, there was an association between general dryness and a lack of recovery. These are data mostly drawn from forests so it makes sense that greater CMI is strongly associated with greater recovery of biomass and species diversity (Figure 5). There was no clear association between CMI trends and the recovery of abundance and diversity. 
 
@@ -145,9 +145,9 @@ Figure 5. Scatterplot for recovery of diversity (1A) and abundance (1B) over CMI
  
  Climate extreme events are becoming more frequent and in particular severe droughts are already affecting forests' biodiversity and productivity [12]. Hence it is not surprising that these events affect the success of restoration. However, these events are also getting more accurately predicted, and so knowing that there is a a strong association with restoration success, if a site has gone or will go through important drought events the restoration approach can contemplate for different conditions by adjusting the goals and choosing methods and species that are known to adapt to these conditions. 
    
-### Soil characteristics
+### No clear patterns for drought and soil nutrients
 
-For the recovery metrics referring to soil characteristics (in this case nitrogen and nutrients) some of the results were less clear as the data were more dispersed. I found weak associations between general dryness and the recovery of soil nitrogen and nutrients (Figure 7). For the anomalies, here it appears that wetter conditions associated with less recovery, weakly for soil nitrogen but more clearly for soil nutrients (Figure 8). There was no association between CMI trends for nutrient recovery, but contrastingly to all other recovery metrics there was a strong association between decreases in CMI trends and lack of recovery (Figure 9).  
+For the recovery metrics referring to soil characteristics (in this case nitrogen and other soil nutrients) some of the results were less clear as the data were more dispersed. I found weak associations of general dryness and increasing recovery of soil nitrogen and other nutrients (Figure 7). For the anomalies it was similar, it appears that wetter conditions associated with less recovery, weakly for  nitrogen but more clearly for other nutrients (Figure 8). Contrastingly to all other recovery metrics there was a strong association between drought trends and lack of soil nitrogen recovery (Figure 9).  
 
 <p align="center">
   <img src="output/CMI_normal_nit_nut.png" width="800"> 
@@ -164,45 +164,22 @@ For the recovery metrics referring to soil characteristics (in this case nitroge
 </p>
  Figure 9. Scatterplot of recovery of soil nitrogen (left panel) and nutrients (right panel) over CMI trends
 
-The variation found is likely due to several factors, dynamics of nitrogen and soil nutrients, influence of climate variables other than CMI, and the reduced number of observations. There is less understanding in what the soil characteristics measured in the studies represent for the recovery of each site, greater attention to the original classification in the analysis should be considered. Also, nutrient cycling generally recovers rapidly following disturbance in forest ecosystems (reference: https://link.springer.com/content/pdf/10.1007/s10021-019-00432-3.pdf) so... Other climate variables may be participating... the dynamics of nutrient cycling are not easily classified into ecosystem types and latitude may play an important role. Lastly, the lesser number of observations is likely influencing these results and there might be a different response once more studies are included. 
+The variation found can be explained with the influence of several factors, dynamics of nitrogen and soil nutrients, influence of climate variables other than CMI, and most importantly at this stage the reduced number of observations. Firstly, there is less understanding in what the soil characteristics measured in the studies represent for the recovery of each site, I need to study in more detail the original classification in the meta-analysis as for example more nitrogen deposition is not necessarily a sign of recovery. Although nutrient cycling generally recovers rapidly following disturbance in forest ecosystems [14] the dynamics are more complex to study than for biodiversity. Other climate variables may be participating, in the eastern United States wetter conditions have been observed [15] which could alter the dynamics of nutrient cycling, moving away from reference goals in a different direction than biodiversity. Lastly, the lesser number of observations is likely influencing these results and there might be a different response once more studies are included, particularly for soil nitrogen there appears to be one site driving a change in trajectory (Figures 7 and 8). It would be interesting once more data on the western side is included to see if these patterns change. 
 
-Explain: what contributes the most to success or failure? Baseline normal conditions, climate trends, extreme events, or non-climatic factors?
-
-It appears that baseline normal conditions and extreme events contribute to to the success or failure of restoration when considering impacts in biodiversity metrics, however it appears that for nitrogen decreases in CMI compared historical normal values are more determining in the recovery. Other soil nutrients report varied responses and greater analysis that includes more data is needed to formulate conclusions. In all of this cases the evidence needs to be strenghtened with more studies. 
-
-t must be clarified that grouping of the recovery metrics is only to provide a more simple interpretation of the results for the purposes of this project. Once more studies are added to the meta-analysis this grouping may change and its results may change as well. 
-
-## 
-
-Following directions
-
-At the moment the studies I am analyzing are focused in the eastern part of the United States and already an association can be seen between drought and lack of recovery. Since it is the western region of North America that is predicted to experience the greater effects from drought with climate change (reference) I consider these patterns are going to be more clear when incorporating more studies that include these areas. 
-
-Increase the number of studies and expand to global assessments to be able to evaluate the role of location
-
-Determine if there are other climatic variables that may be useful and have an association to the recovery trajectory of a restored ecosystem
-
-This meta-analysis eventually will move from North America to incorporate restoration studies from around the globe. I am still unsure on which climate database to use to obtain my global values
-
-Following data exploration when more datapoints have been added, I will explore the relationship between the first and the second dataset by using classification and regression tree analysis. 
-
-During data collection of new studies, I identified I will need more time to establish accurate response ratio values. 
-
-During data exploration I detected the project will need to incorporate more studies within North America at this stage. After filtering for the required parameters, the sample size was greatly reduced (**n=10**). Although restoration observations are considerable for a thorough comparison, the climate values associated to each observation are dependent on the location of the study, which remains unchanged across all observations coming from the same study. So, **observations are nested within study**. Since this is a meta-analysis in the search for patterns, I need as many datapoints as possible to be able to compare across latitudes and ecosystem types within the North America region. 
-
-Multivariate approach
 
 ## 5. Conclusions
 
-I think the most important analysis for climate deviation will be the one looking at the extreme climatic values or greatest difference. But I need to adjust for the duration of the study if I use this metric to estimate climate deviation. 
+It appears that baseline normal conditions and severe drought events contribute to the failure of restoration when considering biodiversity assessments, however for soil nutrients the contribution of climate seems to the recovery seems less clear. In both cases further analysis and data compilation is needed to formulate robust conclusions.  Lastly, because of the complexity of the recovery data in this meta-analysis from this initial approach I conclude that once I gather more recent studies that possibly allow me to analyze climate conditions more broadly, a detailed evaluation of recovery metric classification would be needed to be able to characterize recovery patterns. 
 
-Complexity of data obtention and re-evaluation of recovery metric classification 
 
-### About ### 
+### Following directions
 
-Other studies
+- Increase the number of studies and expand to global assessments to be able to evaluate the role of geographical location. 
 
-Resources 
+- Determine if there are other climatic variables that may be useful and have an association to the recovery trajectory of a restored ecosystem
+
+- Multivariate analysis once more data are included to be able to draw accurate conclusions of the role and contribution of each CMI variable 
+- 
 
 ### References ###
 [1] Hobbs, R. J., & Norton, D. A. (1996). Towards a conceptual framework for restoration ecology. Restoration ecology, 4(2), 93-110 
@@ -227,9 +204,13 @@ Resources
 
 [11] Hogg, E.H., Barr, A.G., and Black, T.A. (2013). A simple soil moisture index for representing multi-year drought impacts on aspen productivity in the western Canadian interior. Agricultural and Forest Meteorology 178-179, 173-182. 
 
-[12] Natural Resources Canada. Climate change impacts on forests: drought. in https://www.nrcan.gc.ca/climate-change/impacts-adaptations/climate-change-impacts-forests/forest-change-indicators/drought/17772 consulted on April 08, 2022. 
+[12] Natural Resources Canada. Climate change impacts on forests: drought. In https://www.nrcan.gc.ca/climate-change/impacts-adaptations/climate-change-impacts-forests/forest-change-indicators/drought/17772 consulted on April 08, 2022. 
 
 [13] Rey-Benayas JM, Newton AC, Diaz A, Bullock JM. (2009). Enhancement of biodiversity and ecosystem services by ecological restoration: a meta-analysis. Science 325, 1121–1124. 
+
+[14] Martineau, C., Beguin, J., Séguin, A., and Paré, D.(2020). Cumulative effects of disturbances on soil nutrients: predominance of antagonistic short-term responses to the salvage logging of insect-killed stands. Ecosystems 23, 812-827. 
+
+[15] United States Environmental Protection Agency. Climate change indicators. In https://www.epa.gov/climate-indicators/climate-change-indicators-drought consulted on April 13, 2022. 
 
 
 
