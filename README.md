@@ -87,7 +87,7 @@ I focused in the most commonly assessed recovery variables in the database: dive
 
 ##
 
-Location of restoration sites 
+### Location of restoration sites 
 
 The number of sites I considered is limited because I chose to only use the response ratios already calculated by the original meta-analysis for this study. The 10 different sites I used for this project are 10 [Figure 4]: 
 
@@ -128,7 +128,7 @@ This is how the second [database table](data/Data_2_for_github.csv) looks like:
 
 I analyzed the recovery of diversity, abundance (biomass), nitrogen and nutrients and I found two different patterns in relation to CMI that can be divided into diversity/abundance metrics and soil characteristics metrics. 
 
-## Diversity/abundance
+### Diversity/abundance
 
 For recovery of these two metrics, there was an association between general dryness and lack of recovery or also can be put as increasing CMI is associated with greater recovery of biomass and species diversity (Figure 5). There was no clear association between CMI trends and recovery for these metrics. 
 
@@ -147,47 +147,49 @@ Figure 5. Scatterplot for recovery of diversity and abundance over CMI normal va
 </p>
  Figure 6. Scatterplot of recovery of aiversity and abundance as a function of the largest negative CMI anomaly during the restoration relative to the  the historical normal
  
- Climate extreme events are becoming more frequent and in particular increasing drought is already affecting terrestrial ecosystem's biodiversity and productivity [reference]. Hence it is not surprising that these events affect the success of restoration. However, these events are also getting more accurately predicted, and this can be planned for in some of the restoration sites [reference]. 
+ Climate extreme events are becoming more frequent and in particular increasing drought is already affecting terrestrial ecosystem's biodiversity and productivity [**reference**]. Hence it is not surprising that these events affect the success of restoration. However, these events are also getting more accurately predicted, and this can be planned for in some of the restoration sites [**reference**]. 
    
-## Soil characteristics
+### Soil characteristics
 
-Then for those recovery metrics referring to soil characteristics the results were less clear. This is likely due to several factors:
+For the recovery metrics referring to soil characteristics (in this case Nitrogen and Nutrients) the results were less clear. This is likely due to several factors. But first, it must be clarified that grouping of the recovery metrics is only to provide a more simple interpretation of the results for the purposes of this project. Once more studies are added to the meta-analysis this grouping may change and its results may change as well because some of these measurements are not related. 
 
--Less understanding in what the soil characteristic represents for the recovery: Nutrient cycling generally recovers rapidly following disturbance in forest ecosystems (reference: https://link.springer.com/content/pdf/10.1007/s10021-019-00432-3.pdf) 
-
--Other climatic, ecological processes and soil chemical and phisical properties affecting it
-
--Less number of observations
-
-## 
-
-
-At the moment the studies I am analyzing are focused in the eastern part of the United States and already an association can be seen between drought and lack of recovery. Since it is the western region of North America that is predicted to experience the greater effects from drought with climate change (reference) I consider these patterns are going to be more clear when incorporating more studies that include these areas. 
-
-
+The factors involved in the variation found in recovery of nitrogen and nutrients in forests and grasslands' soils are ecosystem dynamics of nitrogen and soil nutrients, climate variables other than CMI, reduced number of observations. There is less understanding in what the soil characteristics measured in the studies represent for the recovery of each site, greater attention to the original classification in the analysis should be considered. Also, nutrient cycling generally recovers rapidly following disturbance in forest ecosystems (reference: https://link.springer.com/content/pdf/10.1007/s10021-019-00432-3.pdf) so... Other climate variables may be participating... the dynamics of nutrient cycling are not easily classified into ecosystem types and latitude may play an important role. Lastly, the lesser number of observations is likely influencing these results and there might be a different response once more studies are included. 
 
 Explain: what contributes the most to success or failure? Baseline normal conditions, climate trends, extreme events, or non-climatic factors?
 
 It appears that baseline normal conditions and extreme events contribute to to the success or failure of restoration. But further research is required, more sites, other non-climatic factors...
 
+## 
 
-## 5. Conclusions, About, References (*in progress*)
+Following directions
+
+At the moment the studies I am analyzing are focused in the eastern part of the United States and already an association can be seen between drought and lack of recovery. Since it is the western region of North America that is predicted to experience the greater effects from drought with climate change (reference) I consider these patterns are going to be more clear when incorporating more studies that include these areas. 
 
 Increase the number of studies and expand to global assessments to be able to evaluate the role of location
 
 Determine if there are other climatic variables that may be useful and have an association to the recovery trajectory of a restored ecosystem
 
-This meta-analysis eventually will move from North America to incorporate restoration studies from around the globe. I am still unsure on which climate database to use to obtain my global values. 
-
-I think the most important analysis for climate deviation will be the one looking at the extreme climatic values or greatest difference. But I need to adjust for the duration of the study if I use this metric to estimate climate deviation. 
+This meta-analysis eventually will move from North America to incorporate restoration studies from around the globe. I am still unsure on which climate database to use to obtain my global values
 
 Following data exploration when more datapoints have been added, I will explore the relationship between the first and the second dataset by using classification and regression tree analysis. 
 
 During data collection of new studies, I identified I will need more time to establish accurate response ratio values. 
 
-During data exploration I detected the project will need to incorporate more studies within North America at this stage. After filtering for the required parameters, the sample size was greatly reduced (**n=10**). Although restoration observations are considerable for a thorough comparison, the climate values associated to each observation are dependent on the location of the study, which remains unchanged across all observations coming from the same study. So, **observations are nested within study**. Since this is a meta-analysis in the search for patterns, I need as many datapoints as possible to be able to compare across latitudes and ecosystem types within the North America region. Following steps then are:  
+During data exploration I detected the project will need to incorporate more studies within North America at this stage. After filtering for the required parameters, the sample size was greatly reduced (**n=10**). Although restoration observations are considerable for a thorough comparison, the climate values associated to each observation are dependent on the location of the study, which remains unchanged across all observations coming from the same study. So, **observations are nested within study**. Since this is a meta-analysis in the search for patterns, I need as many datapoints as possible to be able to compare across latitudes and ecosystem types within the North America region. 
+
+Multivariate approach
+
+## 5. Conclusions
+
+I think the most important analysis for climate deviation will be the one looking at the extreme climatic values or greatest difference. But I need to adjust for the duration of the study if I use this metric to estimate climate deviation. 
 
 Complexity of data obtention and re-evaluation of recovery metric classification 
+
+### About ### 
+
+Other studies
+
+Resources 
 
 ### References ###
 [1] Hobbs, R. J., & Norton, D. A. (1996). Towards a conceptual framework for restoration ecology. Restoration ecology, 4(2), 93-110 
