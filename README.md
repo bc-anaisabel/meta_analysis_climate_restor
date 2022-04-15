@@ -7,6 +7,7 @@ In this study I am analyzing if there is an association between **climate trends
 In this repository you can find: 
 - The original [database](/data/Clim_dev_test.csv) with all the studies' information and the second [database](/data/Data_2_for_github.csv) that includes climate values in the [data](/data/) folder
 - The output files including graphs, tables and images for illustration of this project in the [output](/output/) folder
+- R script for multivariate analysis (*in progress*)
 
 
 ##
@@ -23,7 +24,7 @@ A meta-analysis study on the success of restored ecosystems following disturbanc
 <p align="center">
   <img src="output/restoration_priorities.png" width="600"> 
   </p>
- Figure 1. Restoration priorities map from the [International Institute for Sustainable Development](https://www.iis-au.org/publications/global-priority-areas-for-ecosystem-restoration/)  
+ <p align="center"> Figure 1. Restoration priorities map from the [International Institute for Sustainable Development](https://www.iis-au.org/publications/global-priority-areas-for-ecosystem-restoration/) </p> 
  
   
   To address this, there have been proposals to assess the previous climatic conditions in the site that is to be restored. Some of these have involved the use of historical normal climate values as reasonable time period to compare to a pre-climate change condition [2,4,9,10]. If climatic variables in a disturbed ecosystem have deviated considerably compared to its historical normal values, the conditions for restoration might not exist in the same way as before (Figure 2). Thus, by assessing the extent of recovery of past restoration sites based on the metric used by Jones and collaborators [6], and incorporating climate normal, trends and anomalies, I intend to test if this could be a tool used in management plans and help setting restoration goals. I am focusing in climate moisture index (CMI) as this is one the climate components that most affects the dynamics of terrestrial ecosystem in North America [11,12]. If I find associations of restoration failure with observed CMI trends and anomalies, then this would be evidence that restoration ecology should shift away from restore what was there before, and instead set goals that consider new and anticipated climates while also priotitizing where is most needeed and most likely to be successful. 
@@ -31,7 +32,7 @@ A meta-analysis study on the success of restored ecosystems following disturbanc
 <p align="center">
   <img src="output/intro.png" width="600"> 
 </p>
- Figure 2. Trajectory of an ecosystem following restoration affected by climate variation. Modified from reference [6]
+ <p align="center"> Figure 2. Trajectory of an ecosystem following restoration affected by climate variation. Modified from reference [6]</p>
 
 ### Research objectives
 
@@ -50,11 +51,11 @@ Greatest  differences from CMI historical normal values and the severity of drou
 
 To determine restoration success I used an effect size that is commonly used in meta-analysis known as **response ratio** [6,13]. This response ratio is what Jones and collaborators used in their study [6] to determine recovery completeness. For this project I re-calculated the response ratios to check accuracy of results. Response ratio was calculated like this: 
 
-**Response ratio = Ln (End/Goal)** 
+<p align="center">  Response ratio = Ln (End/Goal) </p>
 
-**End** represents the recovery variable's value at the end of the study and,
+<p align="center"> End: represents the recovery variable's value at the end of the study and </p>
 
-**Goal** represents the reference goal value to be reached. 
+<p align="center"> Goal: represents the reference goal value to be reached. </p>
 
 
 2. Climate variables 
@@ -65,7 +66,7 @@ a) **CMI NORMAL 1961-1990**: Obtained the average CMI values for the climate per
 
 b) **CMI restoration period**: Obtained the average CMI values for the duration of the restoration period for each observation and used the difference of these compared to the CMI normal 1961-1990 values. This would correspond to longer term climate trends. 
 
-c) **CMI extreme**: Choosed the greatest CMI anomaly during the restoration period for each location. This represents the most severe drought event during the restoration.
+c) **CMI extreme**: Choosed the highest negative (or smaller number if no negatives) CMI anomaly during the restoration period for each location. This represents the most severe drought event during the restoration.
 
 
 3. Recovery variables
@@ -78,17 +79,17 @@ I focused in the most commonly assessed recovery variables in the database: dive
 <p align="center">
   <img src="output/methods_pipeline_2.png" width="1000"> 
 </p>
- Figure 3. Project pipeline
+ <p align="center"> Figure 3. Project pipeline </p>
 
 
 ##
 
-The number of sites I considered is limited because I used only the response ratios calculated by the original meta-analysis for this project. The 10 different sites where data were collected are mostly located in the Eastern United States (Figure 4).  
+The 10 different sites where data were collected are mostly located in the Eastern United States (Figure 4).  
 
 <p align="center">
   <img src="output/Restoration_sites_maps.png" width="800"> 
 </p>
- Figure 4. Location of restoration sites
+ <p align="center"> Figure 4. Location of restoration sites</p>
 
 
 ## 3. Data 
@@ -103,7 +104,7 @@ The dataset is divided into 2 database tables:
 
 This is how the second [database table](data/Data_2_for_github.csv) looks like: 
 
-*Table1. Database table of studies and climate variables*
+<p align="center"> Table1. Database table of studies and climate variables </p>
 <p align="left">
   <img src="output/Data_2.png" width="1000"> 
 </p>
@@ -111,9 +112,9 @@ This is how the second [database table](data/Data_2_for_github.csv) looks like:
   Where each row refers to a different observation. Starting at the left side columns contain the study's information for each observation and next are the recovery variables and the last columns are the climate variables (the complete database contains more climate observations that the ones shown here, a  breakdown of the information can be found in Table 2). The climate variables (predictor variables) are continuous and the recovery values (response variables) are also continuous. 
 
 
-*Table 2. Variables used in dataset of Table 1*
-<p align="left">
-  <img src="output/Table_data_variables.png" width="500"> 
+<p align="center"> Table 2. Variables used in dataset of Table 1 </p>
+<p align="center">
+  <img src="output/Table_2_disclosure_data.png" width="500"> 
 </p>
 
 
@@ -130,7 +131,7 @@ For recovery of these two metrics, there was an association between general dryn
   <img src="output/CMI_Abun_Diver_normal_avg.png" width="800"> 
 </p>
  
-Figure 5. Scatterplot for recovery of diversity (1A) and abundance (1B) over CMI normal values (1961-1990) (2A) and CMI trends (2B).
+Figure 5. Scatterplot for recovery of diversity (upper left side) and abundance (upper right side) over CMI normal values (1961-1990) and CMI trends.
 
  The lack of association between CMI trends and restoration success can have two different explanations. First it can be that CMI trends do not explain the variation in recovery of diversity and abundance and so it is general dryness as a baseline condition and extreme events that participate in shaping the recovery trajectories. If that is the case still more data are needed to confirm this explanation. The second option is that during the years of the restoration CMI does not reflect significant change because for most of these studies the restoration occurred in the late 80s and early 90s and perhaps climate trends were not that different to the historical normal period just yet. If this is the case then by including more data coming from studies where restoration occurred more recently, that is likely greater changes in climate trends, I should find a greater response from recovery to CMI trends. 
 
